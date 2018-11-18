@@ -1,0 +1,120 @@
+<div class="jumbotron">
+    <h1>Periodic Table</h1>
+    <p>
+        Here you can gain information about various elements of periodic table. 
+    </p>
+</div>
+
+<div id="periodic_table">
+    <div class="box1">
+        <div>
+            <div *ngFor="let item of periodicData[0]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+                <div class="modal box" tabindex="-1" role="dialog" [ngStyle]="{'display':display}">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">{{clickedElement.name}}</h4>
+                                <button type="button" class="close" aria-label="Close" (click) = "hideModal()"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body">
+                                Show Information
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[1]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[2]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+            <div>
+                <button class="btn btn-primary">-</button>
+            </div>
+            <div>
+                <button class="btn btn-primary">-</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[3]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[4]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[5]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[6]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[7]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[8]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[9]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[10]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[11]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[12]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[13]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[14]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[15]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[16]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+        <div>
+            <div *ngFor="let item of periodicData[17]">
+                <button class="btn btn-primary" (click)="showData(item)">{{item.symbol}}</button>
+            </div>
+        </div>
+    </div>
+</div>
