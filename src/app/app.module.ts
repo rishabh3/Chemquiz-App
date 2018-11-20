@@ -6,19 +6,32 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { PeriodicQuizComponent } from './periodic-quiz/periodic-quiz.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PeriodicQuizComponent
+    PeriodicQuizComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    RouterModule.forRoot([
-      { path: 'periodictable', component: PeriodicQuizComponent }
-    ])
+    FormsModule,
+    RouterModule.forRoot(
+      [
+        {
+          path: 'login',
+          component: LoginComponent
+        },
+        {
+          path: 'periodictable',
+          component: PeriodicQuizComponent
+        }
+      ]
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
