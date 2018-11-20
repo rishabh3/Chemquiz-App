@@ -8,12 +8,18 @@ import { PeriodicQuizComponent } from './periodic-quiz/periodic-quiz.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
+import { NavbarComponent } from './navbar/navbar.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { QuizComponent } from './quiz/quiz.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PeriodicQuizComponent,
-    LoginComponent
+    LoginComponent,
+    NavbarComponent,
+    DashboardComponent,
+    QuizComponent
   ],
   imports: [
     BrowserModule,
@@ -23,8 +29,16 @@ import { FormsModule } from '@angular/forms';
     RouterModule.forRoot(
       [
         {
+          path: 'dashboard',
+          component: DashboardComponent
+        },
+        {
           path: 'login',
           component: LoginComponent
+        },
+        {
+          path: 'quiz',
+          component: QuizComponent
         },
         {
           path: 'periodictable',
