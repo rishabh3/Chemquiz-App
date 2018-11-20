@@ -2,7 +2,7 @@
 
 
 <div class="page-header">
-    <h2>Periodic Table</h2>
+    <h2 class="header">Periodic Table</h2>
 </div>
 
 <div id="periodic_table">
@@ -15,11 +15,25 @@
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h4 class="modal-title">{{clickedElement.name}}</h4>
+                            <h3 class="modal-title">{{clickedElement.name}}</h3>
                             <button type="button" class="close" aria-label="Close" (click) = "hideModal()"><span aria-hidden="true">&times;</span></button>
                         </div>
                         <div class="modal-body">
-                            Show Information
+                            <!-- <p class="h4">Atomic Number: {{clickedElement.number}}</p> 
+                            <p class="h4">Atomic Mass: {{clickedElement.atomic_mass}}</p>
+                            <p class="h4">Period: {{clickedElement.period}}</p>
+                            <p class="h4">Appearance: {{clickedElement.appearance}}</p>
+                            <p class="h4">Summary: {{clickedElement.summary}}</p>
+                            <p class="h4">Source: {{clickedElement.source}}</p> -->
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">{{clickedElement.symbol}}</h4>
+                                    <p class="card-text">
+                                        {{clickedElement.summary}}
+                                    </p>
+                                    <a href="{{clickedElement.source}}" class="btn btn-primary">{{clickedElement.name}}</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

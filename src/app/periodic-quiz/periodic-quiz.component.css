@@ -30,10 +30,14 @@
 
 .box{
     margin-top: 17%;
-    animation: fadein 4s;
+    animation: fadein 1s;
 }
   
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+.header{
+    margin-left: 3%;
 }
