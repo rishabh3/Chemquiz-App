@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RouterModule } from '@angular/router';
 import { PeriodicQuizComponent } from './periodic-quiz/periodic-quiz.component';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -14,7 +15,10 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule.forRoot([
+      { path: 'periodictable', component: PeriodicQuizComponent }
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]
