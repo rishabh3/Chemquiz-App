@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient, HttpHeaders,HttpErrorResponse } from '@angular/common/http';
+import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 
 @Component({
   selector: 'app-login',
@@ -7,24 +7,24 @@ import { HttpClient, HttpHeaders,HttpErrorResponse } from '@angular/common/http'
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  constructor(private http: HttpClient) {}
-  ngOnInit() {
-    console.log("Entered");
-  }
   display = 'none';
   LoginDisplay = 'block';
   name = '';
-  submit(email: string,password:string){
+  constructor(private http: HttpClient) {}
+  ngOnInit() {
+    console.log('Entered');
+  }
+  submit(email: string, password: string) {
     let headers = new HttpHeaders();
-    console.log("submitted");
+    console.log('submitted');
     headers = headers.set('Content-Type', 'application/json; charset=utf-8');
     const url = 'https://chemquiz.herokuapp.com/login';
     const body = JSON.stringify({email: email,
                                 password: password});
     this.http.post(url, body, {headers: headers}).subscribe(
-      (data) => {
+      (data: any) => {
           console.log(data);
-          if(data.user.email){
+          if (data.user.email) {
             this.display = 'block';
             this.LoginDisplay = 'none';
             this.name = data.user.email;
