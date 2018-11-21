@@ -1,10 +1,44 @@
+.page{
+    font-family: system-ui;
+    background: linear-gradient(to bottom, #537895 0%,#09203f 90%);
+    height : 100vh;
+}
 .card {
-    margin: 10% auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    width: 30%;
+    margin: auto; /* Added */
+    top: 50px;
 }
 
-.btn-primary.custom-btn {
-	background-color: #352f64;
-	border-color: #352f64;
+.heading{
+    font-family: system-ui;
+    color: white;
+    top: 15px;
+    padding: 50px;
+    margin-left: 100px;
+    font-size: 75px;
+}
+
+button {
+    display: inline-block;
+	width:150px;
+	left: 120px;
+    padding: 5px 25px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(0, 112, 184);
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+    margin:auto;
+    display:block;
+  }
+
+button:hover {
+	background-color: rgb(0, 85, 138);
+}
+
+button:active {
+	background-color: rgb(0, 85, 138);
+	box-shadow: 0 2px #666; 
+	transform: translateY(4px);
 }

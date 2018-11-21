@@ -41,7 +41,7 @@ export class QuizComponent implements OnInit {
     this.quizOver = false;
     this.numCorrect = 0;
     this.numWrong = 0;
-    this.questionNumber = 10;
+    this.questionNumber = 0;
     this.answerMode = true;
     this.chosenOption = null;
     this.nextQuestion();
