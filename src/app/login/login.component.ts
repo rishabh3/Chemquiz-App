@@ -17,11 +17,11 @@ export class LoginComponent implements OnInit {
     console.log('Entered');
   }
   submit(email: string, password: string) {
-    this.Auth.getUserDetails(email, password).subscribe(
+    this.Auth.invokeLogin(email, password).subscribe(
       (data: any) => {
         console.log(data);
         this.router.navigate(['dashboard']);
-        this.Auth.setLoggedIn(true);
+        this.Auth.setLoggedIn(true,data.user.email,data.token);
       },
       (err: HttpErrorResponse) => {
         window.alert(err.error);
