@@ -48,8 +48,7 @@ import { CanActivate } from '@angular/router/src/utils/preactivation';
         },
         {
           path: 'quiz',
-          component: QuizComponent,
-          canActivate: [AuthGuard]
+          component: QuizComponent
         },
         {
           path: 'periodictable',

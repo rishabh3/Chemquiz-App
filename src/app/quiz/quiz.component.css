@@ -1,0 +1,89 @@
+body {
+	font-family: system-ui;
+    height : 100vh;
+    background: linear-gradient(to bottom, #537895 0%,#09203f 90%);
+    line-height: 1.6;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+#correct{
+	text-align: center;
+	color: green;
+}
+#wrong{
+	color: red;
+	text-align: center;
+}
+button {
+    display: inline-block;
+	width:200px;
+	left: 120px;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(0, 112, 184);
+    border-radius: 5px;
+    box-shadow: 0 5px #999;
+    margin:auto;
+    display:block;
+  }
+
+button:hover {
+	background-color: rgb(0, 85, 138);
+}
+
+button:active {
+	background-color: rgb(0, 85, 138);
+	box-shadow: 0 2px #666; 
+	transform: translateY(4px);
+}
+.container {
+	text-align: left;
+	margin-top:60px;
+	margin-left:30%;
+	width: 35%;
+	padding: 3%;
+	line-height: 1.6;
+	background-color: white;
+	box-shadow: -10px -10px 10px rgba(255, 255, 255, 0.123);
+}
+.next-question{
+	left: 0px;
+}
+
+.w3-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+.w3-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+
+.w3-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+
+#options {
+	margin: 10px 0;
+}
+
+.next-question {
+	margin-right: 120px;
+}
+
+#score {
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.back {
+	background: orange;
+}
+
+.background {
+	background: blue;
+}
