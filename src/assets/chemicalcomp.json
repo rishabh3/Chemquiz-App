@@ -1,0 +1,1410 @@
+{
+    "1": [
+        "1",
+        "Acetaldehyde",
+        "C2H4O",
+        "44.053",
+        "0-30% (18°C)",
+        "https://en.wikipedia.org/wiki/Acetaldehyde"
+    ],
+    "2": [
+        "2",
+        "Acetamide",
+        "C2H5NO",
+        "59.068",
+        "0-6% (15°C)",
+        "https://en.wikipedia.org/wiki/Acetamide"
+    ],
+    "3": [
+        "3",
+        "Acetic acid",
+        "CH3COOH",
+        "60.052",
+        "0-100% (20°C)",
+        "https://en.wikipedia.org/wiki/Acetic_acid"
+    ],
+    "4": [
+        "4",
+        "Acetone",
+        "C3H6O",
+        "58.080",
+        "0-100% (20°C)",
+        "https://en.wikipedia.org/wiki/Acetone"
+    ],
+    "5": [
+        "5",
+        "Acetonitrile",
+        "C2H3N",
+        "41.053",
+        "0-16% (15°C)",
+        "https://en.wikipedia.org/wiki/Acetonitrile"
+    ],
+    "6": [
+        "6",
+        "Aluminium chloride",
+        "AlCl3",
+        "133.33",
+        "0-40% (15°C)",
+        "https://en.wikipedia.org/wiki/Aluminium_chloride"
+    ],
+    "7": [
+        "7",
+        "Aluminium nitrate",
+        "Al(NO3)3",
+        "212.994",
+        "-",
+        "https://en.wikipedia.org/wiki/Aluminium_nitrate"
+    ],
+    "8": [
+        "8",
+        "Aluminium sulfate",
+        "Al2(SO4)3",
+        "342.132",
+        "0-26% (15°C)",
+        "https://en.wikipedia.org/wiki/Aluminium_sulfate"
+    ],
+    "9": [
+        "9",
+        "Ammonia",
+        "NH3",
+        "17.031",
+        "0-30% (20°C)",
+        "https://en.wikipedia.org/wiki/Ammonia"
+    ],
+    "10": [
+        "10",
+        "Ammonium acetate",
+        "CH3COONH4",
+        "77.083",
+        "0-45% (25°C)",
+        "https://en.wikipedia.org/wiki/Ammonium_acetate"
+    ],
+    "11": [
+        "11",
+        "Ammonium carbonate",
+        "(NH4)2CO3",
+        "96.086",
+        "-",
+        "https://en.wikipedia.org/wiki/Ammonium_carbonate"
+    ],
+    "12": [
+        "12",
+        "Ammonium chloride",
+        "NH4Cl",
+        "53.49",
+        "0-24% (20°C)",
+        "https://en.wikipedia.org/wiki/Ammonium_chloride"
+    ],
+    "13": [
+        "13",
+        "Ammonium dichromate",
+        "(NH4)2Cr2O7",
+        "252.063",
+        "0-20% (12°C)",
+        "https://en.wikipedia.org/wiki/Ammonium_dichromate"
+    ],
+    "14": [
+        "14",
+        "Ammonium hydroxide",
+        "NH4OH",
+        "35.046",
+        "0-62% (20°C)",
+        "https://en.wikipedia.org/wiki/Ammonium_hydroxide"
+    ],
+    "15": [
+        "15",
+        "Ammonium nitrate",
+        "NH4NO3",
+        "80.043",
+        "0-50% (20°C)",
+        "https://en.wikipedia.org/wiki/Ammonium_nitrate"
+    ],
+    "16": [
+        "16",
+        "Ammonium oxalate",
+        "(NH4)2C2O4",
+        "124.096",
+        "-",
+        "https://en.wikipedia.org/wiki/Ammonium_oxalate"
+    ],
+    "17": [
+        "17",
+        "Ammonium sulfate",
+        "(NH4)2SO4",
+        "132.13",
+        "0-50% (20°C)",
+        "https://en.wikipedia.org/wiki/Ammonium_sulfate"
+    ],
+    "18": [
+        "18",
+        "Antimony(III) chloride",
+        "SbCl3",
+        "228.11",
+        "-",
+        "https://en.wikipedia.org/wiki/Antimony(III)_chloride"
+    ],
+    "19": [
+        "19",
+        "Antimony(V) chloride",
+        "SbCl5",
+        "299.01",
+        "-",
+        "https://en.wikipedia.org/wiki/Antimony(V)_chloride"
+    ],
+    "20": [
+        "20",
+        "Barium chloride",
+        "BaCl2",
+        "208.23",
+        "0-26% (20°C)",
+        "https://en.wikipedia.org/wiki/Barium_chloride"
+    ],
+    "21": [
+        "21",
+        "Barium hydroxide",
+        "Ba(OH)2",
+        "171.34",
+        "-",
+        "https://en.wikipedia.org/wiki/Barium_hydroxide"
+    ],
+    "22": [
+        "22",
+        "Barium nitrate",
+        "Ba(NO3)2",
+        "261.34",
+        "-",
+        "https://en.wikipedia.org/wiki/Barium_nitrate"
+    ],
+    "23": [
+        "23",
+        "Bismuth(III) chloride",
+        "BiCl3",
+        "315.33",
+        "-",
+        "https://en.wikipedia.org/wiki/Bismuth(III)_chloride"
+    ],
+    "24": [
+        "24",
+        "Bismuth(III) nitrate",
+        "Bi(NO3)3",
+        "394.99",
+        "-",
+        "https://en.wikipedia.org/wiki/Bismuth(III)_nitrate"
+    ],
+    "25": [
+        "25",
+        "Butan-1-ol",
+        "C4H10O",
+        "74.123",
+        "0-8% (20°C)",
+        "https://en.wikipedia.org/wiki/Butan-1-ol"
+    ],
+    "26": [
+        "26",
+        "Butyric acid",
+        "C4H8O2",
+        "88.106",
+        "0-62% (25°C)",
+        "https://en.wikipedia.org/wiki/Butyric_acid"
+    ],
+    "27": [
+        "27",
+        "Cadmium nitrate",
+        "Cd(NO3)2",
+        "236.42",
+        "0-50% (18°C)",
+        "https://en.wikipedia.org/wiki/Cadmium_nitrate"
+    ],
+    "28": [
+        "28",
+        "Cadmium sulfate",
+        "CdSO4",
+        "208.47",
+        "-",
+        "https://en.wikipedia.org/wiki/Cadmium_sulfate"
+    ],
+    "29": [
+        "29",
+        "Calcium chloride",
+        "CaCl2",
+        "110.98",
+        "0-40% (20°C)",
+        "https://en.wikipedia.org/wiki/Calcium_chloride"
+    ],
+    "30": [
+        "30",
+        "Calcium hydroxide",
+        "Ca(OH)2",
+        "74.092",
+        "-",
+        "https://en.wikipedia.org/wiki/Calcium_hydroxide"
+    ],
+    "31": [
+        "31",
+        "Calcium nitrate",
+        "Ca(NO3)2",
+        "164.086",
+        "0-68% (18°C)",
+        "https://en.wikipedia.org/wiki/Calcium_nitrate"
+    ],
+    "32": [
+        "32",
+        "Calcium sulfate",
+        "CaSO4",
+        "136.13",
+        "-",
+        "https://en.wikipedia.org/wiki/Calcium_sulfate"
+    ],
+    "33": [
+        "33",
+        "Carbon disulfide",
+        "CS2",
+        "76.13",
+        "-",
+        "https://en.wikipedia.org/wiki/Carbon_disulfide"
+    ],
+    "34": [
+        "34",
+        "Chloroacetic acid",
+        "C2H3ClO2",
+        "94.49",
+        "0-32% (20°C)",
+        "https://en.wikipedia.org/wiki/Chloroacetic_acid"
+    ],
+    "35": [
+        "35",
+        "Chloroauric acid",
+        "HAuCl4",
+        "339.78",
+        "-",
+        "https://en.wikipedia.org/wiki/Chloroauric_acid"
+    ],
+    "36": [
+        "36",
+        "Chloroform",
+        "CHCl3",
+        "119.37",
+        "-",
+        "https://en.wikipedia.org/wiki/Chloroform"
+    ],
+    "37": [
+        "37",
+        "Chloroplatinic acid",
+        "H2PtCl6",
+        "409.80",
+        "-",
+        "https://en.wikipedia.org/wiki/Chloroplatinic_acid"
+    ],
+    "38": [
+        "38",
+        "Chromium(III) chloride",
+        "CrCl3",
+        "158.35",
+        "0-14% (18°C)",
+        "https://en.wikipedia.org/wiki/Chromium(III)_chloride"
+    ],
+    "39": [
+        "39",
+        "Chromium(III) nitrate",
+        "Cr(NO3)3",
+        "238.008",
+        "-",
+        "https://en.wikipedia.org/wiki/Chromium(III)_nitrate"
+    ],
+    "40": [
+        "40",
+        "Chromium(III) sulfate",
+        "Cr2(SO4)3",
+        "392.16",
+        "0-40% (15°C)",
+        "https://en.wikipedia.org/wiki/Chromium(III)_sulfate"
+    ],
+    "41": [
+        "41",
+        "Chromium(VI) oxide",
+        "CrO3",
+        "99.993",
+        "0-60% (15°C)",
+        "https://en.wikipedia.org/wiki/Chromium(VI)_oxide"
+    ],
+    "42": [
+        "42",
+        "Citric acid",
+        "C6H8O7",
+        "192.123",
+        "0-55% (20°C)",
+        "https://en.wikipedia.org/wiki/Citric_acid"
+    ],
+    "43": [
+        "43",
+        "Cobalt(II) nitrate",
+        "Co(NO3)2",
+        "182.941",
+        "-",
+        "https://en.wikipedia.org/wiki/Cobalt(II)_nitrate"
+    ],
+    "44": [
+        "44",
+        "Cobalt(II) sulfate",
+        "CoSO4",
+        "154.99",
+        "-",
+        "https://en.wikipedia.org/wiki/Cobalt(II)_sulfate"
+    ],
+    "45": [
+        "45",
+        "Copper(I) chloride",
+        "Cu2Cl2",
+        "197.99",
+        "0-20% (20°C)",
+        "https://en.wikipedia.org/wiki/Copper(I)_chloride"
+    ],
+    "46": [
+        "46",
+        "Copper(II) chloride",
+        "CuCl2",
+        "134.45",
+        "0-20% (20°C)",
+        "https://en.wikipedia.org/wiki/Copper(II)_chloride"
+    ],
+    "47": [
+        "47",
+        "Copper(II) nitrate",
+        "Cu(NO3)2",
+        "187.554",
+        "0-25% (20°C)",
+        "https://en.wikipedia.org/wiki/Copper(II)_nitrate"
+    ],
+    "48": [
+        "48",
+        "Copper(II) sulfate",
+        "CuSO4",
+        "159.60",
+        "0-20% (18°C)",
+        "https://en.wikipedia.org/wiki/Copper(II)_sulfate"
+    ],
+    "49": [
+        "49",
+        "Dichloroacetic acid",
+        "C2H2Cl2O2",
+        "128.94",
+        "0-30% (20°C)",
+        "https://en.wikipedia.org/wiki/Dichloroacetic_acid"
+    ],
+    "50": [
+        "50",
+        "Diethyl ether",
+        "(C2H5)2O",
+        "74.123",
+        "0-5% (20°C)",
+        "https://en.wikipedia.org/wiki/Diethyl_ether"
+    ],
+    "51": [
+        "51",
+        "Dimethylglyoxime",
+        "(CH3CNOH)2",
+        "116.120",
+        "-",
+        "https://en.wikipedia.org/wiki/Dimethylglyoxime"
+    ],
+    "52": [
+        "52",
+        "EDTA, disodium salt",
+        "Na2C10H14N2O8",
+        "336.21",
+        "0-6% (20°C)",
+        "https://en.wikipedia.org/wiki/EDTA,_disodium_salt"
+    ],
+    "53": [
+        "53",
+        "Ethanol",
+        "C2H5OH",
+        "46.069",
+        "0-100% (20°C)",
+        "https://en.wikipedia.org/wiki/Ethanol"
+    ],
+    "54": [
+        "54",
+        "Ethylene glycol",
+        "(CH2OH)2",
+        "62.068",
+        "0-60% (20°C)",
+        "https://en.wikipedia.org/wiki/Ethylene_glycol"
+    ],
+    "55": [
+        "55",
+        "Formaldehyde",
+        "CH2O",
+        "30.026",
+        "0-40% (15°C)",
+        "https://en.wikipedia.org/wiki/Formaldehyde"
+    ],
+    "56": [
+        "56",
+        "Formic acid",
+        "CH2O2",
+        "46.025",
+        "0-100% (20°C)",
+        "https://en.wikipedia.org/wiki/Formic_acid"
+    ],
+    "57": [
+        "57",
+        "Fructose",
+        "C6H12O6",
+        "180.156",
+        "0-48% (20°C)",
+        "https://en.wikipedia.org/wiki/Fructose"
+    ],
+    "58": [
+        "58",
+        "Glucose",
+        "C6H12O6",
+        "180.156",
+        "0-60% (20°C)",
+        "https://en.wikipedia.org/wiki/Glucose"
+    ],
+    "59": [
+        "59",
+        "Glycerol",
+        "C3H8O3",
+        "92.094",
+        "0-100% (20°C)",
+        "https://en.wikipedia.org/wiki/Glycerol"
+    ],
+    "60": [
+        "60",
+        "Hexafluorosilicic acid",
+        "H2SiF6",
+        "144.089",
+        "0-34% (17.5°C)",
+        "https://en.wikipedia.org/wiki/Hexafluorosilicic_acid"
+    ],
+    "61": [
+        "61",
+        "Hydrazine",
+        "N2H4",
+        "32.046",
+        "0-60% (15°C)",
+        "https://en.wikipedia.org/wiki/Hydrazine"
+    ],
+    "62": [
+        "62",
+        "Hydrobromic acid",
+        "HBr",
+        "80.912",
+        "0-65% (25°C)",
+        "https://en.wikipedia.org/wiki/Hydrobromic_acid"
+    ],
+    "63": [
+        "63",
+        "Hydrochloric acid",
+        "HCl",
+        "36.46",
+        "0-40% (20°C)",
+        "https://en.wikipedia.org/wiki/Hydrochloric_acid"
+    ],
+    "64": [
+        "64",
+        "Hydrocyanic acid",
+        "HCN",
+        "27.026",
+        "0-16% (15°C)",
+        "https://en.wikipedia.org/wiki/Hydrocyanic_acid"
+    ],
+    "65": [
+        "65",
+        "Hydrofluoric acid",
+        "HF",
+        "20.006",
+        "0-50% (20°C)",
+        "https://en.wikipedia.org/wiki/Hydrofluoric_acid"
+    ],
+    "66": [
+        "66",
+        "Hydrogen peroxide",
+        "H2O2",
+        "34.014",
+        "0-100% (18°C)",
+        "https://en.wikipedia.org/wiki/Hydrogen_peroxide"
+    ],
+    "67": [
+        "67",
+        "Hydroiodic acid",
+        "HI",
+        "127.9",
+        "-",
+        "https://en.wikipedia.org/wiki/Hydroiodic_acid"
+    ],
+    "68": [
+        "68",
+        "Iodic acid",
+        "HIO3",
+        "175.9",
+        "-",
+        "https://en.wikipedia.org/wiki/Iodic_acid"
+    ],
+    "69": [
+        "69",
+        "Iron(II) ammonium sulfate",
+        "FeSO4+(NH4)2SO4",
+        "284.04",
+        "-",
+        "https://en.wikipedia.org/wiki/Iron(II)_ammonium_sulfate"
+    ],
+    "70": [
+        "70",
+        "Iron(II) sulfate",
+        "FeSO4",
+        "151.90",
+        "0-20% (18°C)",
+        "https://en.wikipedia.org/wiki/Iron(II)_sulfate"
+    ],
+    "71": [
+        "71",
+        "Iron(III) chloride",
+        "FeCl3",
+        "162.20",
+        "0-50% (20°C)",
+        "https://en.wikipedia.org/wiki/Iron(III)_chloride"
+    ],
+    "72": [
+        "72",
+        "Iron(III) nitrate",
+        "Fe(NO3)3",
+        "241.857",
+        "0-25% (18°C)",
+        "https://en.wikipedia.org/wiki/Iron(III)_nitrate"
+    ],
+    "73": [
+        "73",
+        "Iron(III) sulfate",
+        "Fe2(SO4)3",
+        "399.86",
+        "0-20% (17.5°C)",
+        "https://en.wikipedia.org/wiki/Iron(III)_sulfate"
+    ],
+    "74": [
+        "74",
+        "Isobutanol",
+        "C4H10O",
+        "74.123",
+        "0-8% (20°C)",
+        "https://en.wikipedia.org/wiki/Isobutanol"
+    ],
+    "75": [
+        "75",
+        "Lactic acid",
+        "C3H6O3",
+        "90.078",
+        "0-80% (20°C)",
+        "https://en.wikipedia.org/wiki/Lactic_acid"
+    ],
+    "76": [
+        "76",
+        "Lactose",
+        "C12H22O11",
+        "342.297",
+        "0-18% (20°C)",
+        "https://en.wikipedia.org/wiki/Lactose"
+    ],
+    "77": [
+        "77",
+        "Lead(II) acetate",
+        "Pb(C2H3O2)2",
+        "325.3",
+        "-",
+        "https://en.wikipedia.org/wiki/Lead(II)_acetate"
+    ],
+    "78": [
+        "78",
+        "Lead(II) chloride",
+        "PbCl2",
+        "278.1",
+        "-",
+        "https://en.wikipedia.org/wiki/Lead(II)_chloride"
+    ],
+    "79": [
+        "79",
+        "Lead(II) nitrate",
+        "Pb(NO3)2",
+        "331.2",
+        "-",
+        "https://en.wikipedia.org/wiki/Lead(II)_nitrate"
+    ],
+    "80": [
+        "80",
+        "Lead(IV) acetate",
+        "Pb(C2H3O2)4",
+        "443.4",
+        "-",
+        "https://en.wikipedia.org/wiki/Lead(IV)_acetate"
+    ],
+    "81": [
+        "81",
+        "Lithium chloride",
+        "LiCl",
+        "42.39",
+        "0-30% (20°C)",
+        "https://en.wikipedia.org/wiki/Lithium_chloride"
+    ],
+    "82": [
+        "82",
+        "Magnesium chloride",
+        "MgCl2",
+        "95.21",
+        "0-30% (20°C)",
+        "https://en.wikipedia.org/wiki/Magnesium_chloride"
+    ],
+    "83": [
+        "83",
+        "Magnesium nitrate",
+        "Mg(NO3)2",
+        "148.313",
+        "-",
+        "https://en.wikipedia.org/wiki/Magnesium_nitrate"
+    ],
+    "84": [
+        "84",
+        "Magnesium sulfate",
+        "MgSO4",
+        "120.36",
+        "0-26% (20°C)",
+        "https://en.wikipedia.org/wiki/Magnesium_sulfate"
+    ],
+    "85": [
+        "85",
+        "Maleic acid",
+        "C4H4O4",
+        "116.072",
+        "0-40% (25°C)",
+        "https://en.wikipedia.org/wiki/Maleic_acid"
+    ],
+    "86": [
+        "86",
+        "Malonic acid",
+        "C3H4O4",
+        "104.061",
+        "0-40% (20°C)",
+        "https://en.wikipedia.org/wiki/Malonic_acid"
+    ],
+    "87": [
+        "87",
+        "Maltose",
+        "C12H22O11",
+        "342.297",
+        "0-60% (20°C)",
+        "https://en.wikipedia.org/wiki/Maltose"
+    ],
+    "88": [
+        "88",
+        "Manganese(II) chloride",
+        "MnCl2",
+        "125.84",
+        "-",
+        "https://en.wikipedia.org/wiki/Manganese(II)_chloride"
+    ],
+    "89": [
+        "89",
+        "Manganese(II) sulfate",
+        "MnSO4",
+        "150.99",
+        "0-30% (20°C)",
+        "https://en.wikipedia.org/wiki/Manganese(II)_sulfate"
+    ],
+    "90": [
+        "90",
+        "Mannitol",
+        "C6H14O6",
+        "182.172",
+        "0-15% (20°C)",
+        "https://en.wikipedia.org/wiki/Mannitol"
+    ],
+    "91": [
+        "91",
+        "Mercury(II) chloride",
+        "HgCl2",
+        "271.49",
+        "-",
+        "https://en.wikipedia.org/wiki/Mercury(II)_chloride"
+    ],
+    "92": [
+        "92",
+        "Mercury(II) nitrate",
+        "Hg(NO3)2",
+        "324.60",
+        "-",
+        "https://en.wikipedia.org/wiki/Mercury(II)_nitrate"
+    ],
+    "93": [
+        "93",
+        "Mercury(II) sulfate",
+        "HgSO4",
+        "296.65",
+        "-",
+        "https://en.wikipedia.org/wiki/Mercury(II)_sulfate"
+    ],
+    "94": [
+        "94",
+        "Methanol",
+        "CH3OH",
+        "32.042",
+        "0-100% (15°C)",
+        "https://en.wikipedia.org/wiki/Methanol"
+    ],
+    "95": [
+        "95",
+        "Methyl acetate",
+        "C3H6O2",
+        "74.079",
+        "0-20% (20°C)",
+        "https://en.wikipedia.org/wiki/Methyl_acetate"
+    ],
+    "96": [
+        "96",
+        "Nickel chloride",
+        "NiCl2",
+        "129.59",
+        "0-30% (18°C)",
+        "https://en.wikipedia.org/wiki/Nickel_chloride"
+    ],
+    "97": [
+        "97",
+        "Nickel nitrate",
+        "Ni(NO3)2",
+        "182.701",
+        "0-35% (20°C)",
+        "https://en.wikipedia.org/wiki/Nickel_nitrate"
+    ],
+    "98": [
+        "98",
+        "Nickel sulfate",
+        "NiSO4",
+        "154.75",
+        "0-18% (18°C)",
+        "https://en.wikipedia.org/wiki/Nickel_sulfate"
+    ],
+    "99": [
+        "99",
+        "Nicotine",
+        "C10H14N2",
+        "162.236",
+        "0-60% (20°C)",
+        "https://en.wikipedia.org/wiki/Nicotine"
+    ],
+    "100": [
+        "100",
+        "Nitric acid",
+        "HNO3",
+        "63.012",
+        "0-100% (20°C)",
+        "https://en.wikipedia.org/wiki/Nitric_acid"
+    ],
+    "101": [
+        "101",
+        "Oxalic acid",
+        "H2C2O4",
+        "90.034",
+        "0-10% (17.5°C)",
+        "https://en.wikipedia.org/wiki/Oxalic_acid"
+    ],
+    "102": [
+        "102",
+        "Pentan-1-ol",
+        "C5H11OH",
+        "88.150",
+        "-",
+        "https://en.wikipedia.org/wiki/Pentan-1-ol"
+    ],
+    "103": [
+        "103",
+        "Perchloric acid",
+        "HClO4",
+        "100.45",
+        "0-70% (15°C)",
+        "https://en.wikipedia.org/wiki/Perchloric_acid"
+    ],
+    "104": [
+        "104",
+        "Phenol",
+        "C6H6O",
+        "94.113",
+        "0-5% (15°C)",
+        "https://en.wikipedia.org/wiki/Phenol"
+    ],
+    "105": [
+        "105",
+        "Phosphoric acid",
+        "H3PO4",
+        "97.994",
+        "0-100% (20°C)",
+        "https://en.wikipedia.org/wiki/Phosphoric_acid"
+    ],
+    "106": [
+        "106",
+        "Potassium bicarbonate",
+        "KHCO3",
+        "100.114",
+        "0-24% (15°C)",
+        "https://en.wikipedia.org/wiki/Potassium_bicarbonate"
+    ],
+    "107": [
+        "107",
+        "Potassium bromate",
+        "KBrO3",
+        "166.999",
+        "-",
+        "https://en.wikipedia.org/wiki/Potassium_bromate"
+    ],
+    "108": [
+        "108",
+        "Potassium bromide",
+        "KBr",
+        "119.002",
+        "0-40% (20°C)",
+        "https://en.wikipedia.org/wiki/Potassium_bromide"
+    ],
+    "109": [
+        "109",
+        "Potassium carbonate",
+        "K2CO3",
+        "138.204",
+        "0-50% (20°C)",
+        "https://en.wikipedia.org/wiki/Potassium_carbonate"
+    ],
+    "110": [
+        "110",
+        "Potassium chlorate",
+        "KClO3",
+        "122.55",
+        "0-4% (20°C)",
+        "https://en.wikipedia.org/wiki/Potassium_chlorate"
+    ],
+    "111": [
+        "111",
+        "Potassium chloride",
+        "KCl",
+        "74.55",
+        "0-24% (20°C)",
+        "https://en.wikipedia.org/wiki/Potassium_chloride"
+    ],
+    "112": [
+        "112",
+        "Potassium chromate",
+        "K2CrO4",
+        "194.188",
+        "0-30% (18°C)",
+        "https://en.wikipedia.org/wiki/Potassium_chromate"
+    ],
+    "113": [
+        "113",
+        "Potassium cyanide",
+        "KCN",
+        "65.116",
+        "-",
+        "https://en.wikipedia.org/wiki/Potassium_cyanide"
+    ],
+    "114": [
+        "114",
+        "Potassium dichromate",
+        "K2Cr2O7",
+        "294.181",
+        "0-10% (20°C)",
+        "https://en.wikipedia.org/wiki/Potassium_dichromate"
+    ],
+    "115": [
+        "115",
+        "Potassium dihydrogen phosphate",
+        "KH2PO4",
+        "136.084",
+        "0-10% (20°C)",
+        "https://en.wikipedia.org/wiki/Potassium_dihydrogen_phosphate"
+    ],
+    "116": [
+        "116",
+        "Potassium hexacyanoferrate(II)",
+        "K4Fe(CN)6",
+        "368.345",
+        "-",
+        "https://en.wikipedia.org/wiki/Potassium_hexacyanoferrate(II)"
+    ],
+    "117": [
+        "117",
+        "Potassium hexacyanoferrate(III)",
+        "K3Fe(CN)6",
+        "329.247",
+        "-",
+        "https://en.wikipedia.org/wiki/Potassium_hexacyanoferrate(III)"
+    ],
+    "118": [
+        "118",
+        "Potassium hydrogen phosphate",
+        "K2HPO4",
+        "174.174",
+        "0-8% (20°C)",
+        "https://en.wikipedia.org/wiki/Potassium_hydrogen_phosphate"
+    ],
+    "119": [
+        "119",
+        "Potassium hydroxide",
+        "KOH",
+        "56.105",
+        "0-50% (15°C)",
+        "https://en.wikipedia.org/wiki/Potassium_hydroxide"
+    ],
+    "120": [
+        "120",
+        "Potassium iodate",
+        "KIO3",
+        "214.0",
+        "-",
+        "https://en.wikipedia.org/wiki/Potassium_iodate"
+    ],
+    "121": [
+        "121",
+        "Potassium iodide",
+        "KI",
+        "166.0",
+        "0-55% (20°C)",
+        "https://en.wikipedia.org/wiki/Potassium_iodide"
+    ],
+    "122": [
+        "122",
+        "Potassium nitrate",
+        "KNO3",
+        "101.102",
+        "0-24% (20°C)",
+        "https://en.wikipedia.org/wiki/Potassium_nitrate"
+    ],
+    "123": [
+        "123",
+        "Potassium nitrite",
+        "KNO2",
+        "85.103",
+        "-",
+        "https://en.wikipedia.org/wiki/Potassium_nitrite"
+    ],
+    "124": [
+        "124",
+        "Potassium permanganate",
+        "KMnO4",
+        "158.032",
+        "0-6% (20°C)",
+        "https://en.wikipedia.org/wiki/Potassium_permanganate"
+    ],
+    "125": [
+        "125",
+        "Potassium sulfate",
+        "K2SO4",
+        "174.25",
+        "0-10% (20°C)",
+        "https://en.wikipedia.org/wiki/Potassium_sulfate"
+    ],
+    "126": [
+        "126",
+        "Potassium sulfite",
+        "K2SO3",
+        "158.25",
+        "0-26% (15°C)",
+        "https://en.wikipedia.org/wiki/Potassium_sulfite"
+    ],
+    "127": [
+        "127",
+        "Potassium tartrate",
+        "K2C4H4O6",
+        "226.266",
+        "0-50% (20°C)",
+        "https://en.wikipedia.org/wiki/Potassium_tartrate"
+    ],
+    "128": [
+        "128",
+        "Potassium thiocyanate",
+        "KCNS",
+        "97.18",
+        "-",
+        "https://en.wikipedia.org/wiki/Potassium_thiocyanate"
+    ],
+    "129": [
+        "129",
+        "Propan-1-ol",
+        "CH3CH2CH2OH",
+        "60.096",
+        "0-100% (15°C)",
+        "https://en.wikipedia.org/wiki/Propan-1-ol"
+    ],
+    "130": [
+        "130",
+        "Propan-2-ol",
+        "CH3CHOHCH3",
+        "60.096",
+        "0-100% (20°C)",
+        "https://en.wikipedia.org/wiki/Propan-2-ol"
+    ],
+    "131": [
+        "131",
+        "Pyridine",
+        "C5H5N",
+        "79.102",
+        "0-60% (25°C)",
+        "https://en.wikipedia.org/wiki/Pyridine"
+    ],
+    "132": [
+        "132",
+        "Resorcinol",
+        "C6H6O2",
+        "110.112",
+        "0-52% (18°C)",
+        "https://en.wikipedia.org/wiki/Resorcinol"
+    ],
+    "133": [
+        "133",
+        "Saccharose",
+        "C12H22O11",
+        "342.297",
+        "0-89% (20°C)",
+        "https://en.wikipedia.org/wiki/Saccharose"
+    ],
+    "134": [
+        "134",
+        "Silver nitrate",
+        "AgNO3",
+        "169.87",
+        "0-40% (20°C)",
+        "https://en.wikipedia.org/wiki/Silver_nitrate"
+    ],
+    "135": [
+        "135",
+        "Silver sulfate",
+        "Ag2SO4",
+        "311.80",
+        "-",
+        "https://en.wikipedia.org/wiki/Silver_sulfate"
+    ],
+    "136": [
+        "136",
+        "Sodium acetate",
+        "NaC2H3O2",
+        "82.03",
+        "0-28% (20°C)",
+        "https://en.wikipedia.org/wiki/Sodium_acetate"
+    ],
+    "137": [
+        "137",
+        "Sodium arsenate",
+        "Na3AsO4",
+        "207.89",
+        "0-12% (17°C)",
+        "https://en.wikipedia.org/wiki/Sodium_arsenate"
+    ],
+    "138": [
+        "138",
+        "Sodium bromide",
+        "NaBr",
+        "102.89",
+        "0-40% (20°C)",
+        "https://en.wikipedia.org/wiki/Sodium_bromide"
+    ],
+    "139": [
+        "139",
+        "Sodium carbonate",
+        "Na2CO3",
+        "105.99",
+        "0-14% (20°C)",
+        "https://en.wikipedia.org/wiki/Sodium_carbonate"
+    ],
+    "140": [
+        "140",
+        "Sodium chlorate",
+        "NaClO3",
+        "106.44",
+        "0-34% (18°C)",
+        "https://en.wikipedia.org/wiki/Sodium_chlorate"
+    ],
+    "141": [
+        "141",
+        "Sodium chloride",
+        "NaCl",
+        "58.44",
+        "0-26% (20°C)",
+        "https://en.wikipedia.org/wiki/Sodium_chloride"
+    ],
+    "142": [
+        "142",
+        "Sodium chromate",
+        "Na2CrO4",
+        "161.97",
+        "0-26% (18°C)",
+        "https://en.wikipedia.org/wiki/Sodium_chromate"
+    ],
+    "143": [
+        "143",
+        "Sodium citrate",
+        "Na3C6H5O7",
+        "258.07",
+        "0-36% (20°C)",
+        "https://en.wikipedia.org/wiki/Sodium_citrate"
+    ],
+    "144": [
+        "144",
+        "Sodium dichromate",
+        "Na2Cr2O7",
+        "261.97",
+        "0-50% (15°C)",
+        "https://en.wikipedia.org/wiki/Sodium_dichromate"
+    ],
+    "145": [
+        "145",
+        "Sodium dihydrogen phosphate",
+        "NaH2PO4",
+        "119.98",
+        "0-40% (20°C)",
+        "https://en.wikipedia.org/wiki/Sodium_dihydrogen_phosphate"
+    ],
+    "146": [
+        "146",
+        "Sodium formate",
+        "HCOONa",
+        "68.01",
+        "0-40% (25°C)",
+        "https://en.wikipedia.org/wiki/Sodium_formate"
+    ],
+    "147": [
+        "147",
+        "Sodium hydrogen carbonate",
+        "NaHCO3",
+        "84.01",
+        "0-6% (20°C)",
+        "https://en.wikipedia.org/wiki/Sodium_hydrogen_carbonate"
+    ],
+    "148": [
+        "148",
+        "Sodium hydrogen phosphate",
+        "Na2HPO4",
+        "141.96",
+        "0-6% (20°C)",
+        "https://en.wikipedia.org/wiki/Sodium_hydrogen_phosphate"
+    ],
+    "149": [
+        "149",
+        "Sodium hydrogen tartrate",
+        "NaHC4H4O6",
+        "172.07",
+        "-",
+        "https://en.wikipedia.org/wiki/Sodium_hydrogen_tartrate"
+    ],
+    "150": [
+        "150",
+        "Sodium hydroxide",
+        "NaOH",
+        "40.00",
+        "0-50% (20°C)",
+        "https://en.wikipedia.org/wiki/Sodium_hydroxide"
+    ],
+    "151": [
+        "151",
+        "Sodium nitrate",
+        "NaNO3",
+        "84.99",
+        "0-45% (20°C)",
+        "https://en.wikipedia.org/wiki/Sodium_nitrate"
+    ],
+    "152": [
+        "152",
+        "Sodium nitrite",
+        "NaNO2",
+        "69.00",
+        "0-20% (15°C)",
+        "https://en.wikipedia.org/wiki/Sodium_nitrite"
+    ],
+    "153": [
+        "153",
+        "Sodium phosphate",
+        "Na3PO4",
+        "163.94",
+        "0-8% (20°C)",
+        "https://en.wikipedia.org/wiki/Sodium_phosphate"
+    ],
+    "154": [
+        "154",
+        "Sodium potassium tartrate",
+        "NaKC4H4O6",
+        "210.16",
+        "0-36% (20°C)",
+        "https://en.wikipedia.org/wiki/Sodium_potassium_tartrate"
+    ],
+    "155": [
+        "155",
+        "Sodium sulfate",
+        "Na2SO4",
+        "142.04",
+        "0-24% (20°C)",
+        "https://en.wikipedia.org/wiki/Sodium_sulfate"
+    ],
+    "156": [
+        "156",
+        "Sodium sulfide",
+        "Na2S",
+        "78.04",
+        "0-18% (18°C)",
+        "https://en.wikipedia.org/wiki/Sodium_sulfide"
+    ],
+    "157": [
+        "157",
+        "Sodium sulfite",
+        "Na2SO3",
+        "126.04",
+        "0-18% (19°C)",
+        "https://en.wikipedia.org/wiki/Sodium_sulfite"
+    ],
+    "158": [
+        "158",
+        "Sodium tartrate",
+        "Na2C4H4O6",
+        "194.05",
+        "0-28% (20°C)",
+        "https://en.wikipedia.org/wiki/Sodium_tartrate"
+    ],
+    "159": [
+        "159",
+        "Sodium thiosulfate",
+        "Na2S2O3",
+        "158.10",
+        "0-40% (20°C)",
+        "https://en.wikipedia.org/wiki/Sodium_thiosulfate"
+    ],
+    "160": [
+        "160",
+        "Strontium chloride",
+        "SrCl2",
+        "158.52",
+        "0-36% (20°C)",
+        "https://en.wikipedia.org/wiki/Strontium_chloride"
+    ],
+    "161": [
+        "161",
+        "Strontium nitrate",
+        "Sr(NO3)2",
+        "211.63",
+        "-",
+        "https://en.wikipedia.org/wiki/Strontium_nitrate"
+    ],
+    "162": [
+        "162",
+        "Strontium sulfate",
+        "SrSO4",
+        "183.68",
+        "-",
+        "https://en.wikipedia.org/wiki/Strontium_sulfate"
+    ],
+    "163": [
+        "163",
+        "Sulfuric acid",
+        "H2SO4",
+        "98.07",
+        "0-100% (20°C)",
+        "https://en.wikipedia.org/wiki/Sulfuric_acid"
+    ],
+    "164": [
+        "164",
+        "Sulfurous acid",
+        "H2SO3",
+        "82.07",
+        "-",
+        "https://en.wikipedia.org/wiki/Sulfurous_acid"
+    ],
+    "165": [
+        "165",
+        "Tartaric acid",
+        "H2C4H4O6",
+        "150.086",
+        "0-56% (15°C)",
+        "https://en.wikipedia.org/wiki/Tartaric_acid"
+    ],
+    "166": [
+        "166",
+        "Thiourea",
+        "CH4N2S",
+        "76.12",
+        "0-7% (15°C)",
+        "https://en.wikipedia.org/wiki/Thiourea"
+    ],
+    "167": [
+        "167",
+        "Tin(II) chloride",
+        "SnCl2",
+        "189.61",
+        "0-65% (15°C)",
+        "https://en.wikipedia.org/wiki/Tin(II)_chloride"
+    ],
+    "168": [
+        "168",
+        "Tin(IV) chloride",
+        "SnCl4",
+        "260.51",
+        "0-70% (15°C)",
+        "https://en.wikipedia.org/wiki/Tin(IV)_chloride"
+    ],
+    "169": [
+        "169",
+        "Trichloroacetic acid",
+        "CCl3COOH",
+        "163.38",
+        "0-48% (20°C)",
+        "https://en.wikipedia.org/wiki/Trichloroacetic_acid"
+    ],
+    "170": [
+        "170",
+        "TRIS",
+        "(HOCH2)3CNH2",
+        "121.136",
+        "0-40% (20°C)",
+        "https://en.wikipedia.org/wiki/TRIS"
+    ],
+    "171": [
+        "171",
+        "Urea",
+        "(NH2)2CO",
+        "60.056",
+        "0-46% (20°C)",
+        "https://en.wikipedia.org/wiki/Urea"
+    ],
+    "172": [
+        "172",
+        "Urethane",
+        "C3H7NO2",
+        "89.094",
+        "0-56% (20°C)",
+        "https://en.wikipedia.org/wiki/Urethane"
+    ],
+    "173": [
+        "173",
+        "Zinc bromide",
+        "ZnBr2",
+        "225.19",
+        "0-65% (20°C)",
+        "https://en.wikipedia.org/wiki/Zinc_bromide"
+    ],
+    "174": [
+        "174",
+        "Zinc chloride",
+        "ZnCl2",
+        "136.28",
+        "0-70% (20°C)",
+        "https://en.wikipedia.org/wiki/Zinc_chloride"
+    ],
+    "175": [
+        "175",
+        "Zinc nitrate",
+        "Zn(NO3)2",
+        "189.39",
+        "0-50% (18°C)",
+        "https://en.wikipedia.org/wiki/Zinc_nitrate"
+    ],
+    "176": [
+        "176",
+        "Zinc sulfate",
+        "ZnSO4",
+        "161.44",
+        "0-16% (20°C)",
+        "https://en.wikipedia.org/wiki/Zinc_sulfate"
+    ]
+}

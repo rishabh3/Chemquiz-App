@@ -11,6 +11,9 @@ import { FormsModule } from '@angular/forms';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { QuizComponent } from './quiz/quiz.component';
+import { CompoundComponent } from './compound/compound.component';
+import { ProfileComponent } from './profile/profile.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { QuizComponent } from './quiz/quiz.component';
     LoginComponent,
     NavbarComponent,
     DashboardComponent,
-    QuizComponent
+    QuizComponent,
+    CompoundComponent,
+    ProfileComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
@@ -43,6 +49,18 @@ import { QuizComponent } from './quiz/quiz.component';
         {
           path: 'periodictable',
           component: PeriodicQuizComponent
+        },
+        {
+          path: 'compound',
+          component: CompoundComponent
+        },
+        {
+          path: 'profile',
+          component: ProfileComponent
+        },
+        {
+          path: '**',
+          component: NotfoundComponent
         }
       ]
     )
