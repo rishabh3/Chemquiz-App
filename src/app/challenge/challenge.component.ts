@@ -20,14 +20,15 @@ export class ChallengeComponent implements OnInit {
   private chosenOption: string;
   private correctAns: boolean;
   private displayError: boolean;
+  private email: string;
 
   constructor(private challenge: ChallengeService) { }
 
   ngOnInit() {
+    this.findChallenge();
   }
 
   startQuiz() {
-    this.findChallenge();
     this.getQuestionSetForChallenger();
     console.log('Start clicked');
     this.inProgress = true;
@@ -41,8 +42,8 @@ export class ChallengeComponent implements OnInit {
   findChallenge() {
     this.challenge.challengeFind().subscribe(
       (data: any) => {
-        console.log(data.user.email);
-        this.challenge.setChallengeEmail(data.user.email);
+        console.log('Challengee Email:', data.user.email);
+        this.email = data.user.email;
       },
       (err: HttpErrorResponse) => {
         console.log(err.error);
@@ -54,9 +55,11 @@ export class ChallengeComponent implements OnInit {
     /*
       This function gets set of questions for the first guy who takes the challenge quiz.
     */
-    this.challenge.getQuestionForChallenger().subscribe(
+    console.log(this.email);
+    this.challenge.getQuestionForChallenger(this.email).subscribe(
       (data: any) => {
-        console.log(data);
+        this.questionData = data.questions;
+        console.log(this.questionData);
       },
       (err: any) => {
         console.log(err.error);

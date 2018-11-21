@@ -10,13 +10,8 @@ export class ChallengeService {
   readonly challengeurl = 'https://chemquiz.herokuapp.com/challenge/findChallenge';
   readonly challengeregurl = 'https://chemquiz.herokuapp.com/challenge';
 
-  private challenge_email: any;
-
   constructor(private http: HttpClient, private Auth: AuthService) { }
 
-  setChallengeEmail(email: string) {
-    this.challenge_email = email;
-  }
 
   challengeFind() {
     let headers = new HttpHeaders();
@@ -24,18 +19,20 @@ export class ChallengeService {
     return this.http.get(this.challengeurl, {headers: headers});
   }
 
-  challengeRegister() {
+  challengeRegister(email: string) {
     let headers = new HttpHeaders();
-    headers = headers.set('email', this.challenge_email);
+    headers = headers.set('email', email);
     return this.http.get(this.challengeregurl, {headers: headers});
   }
 
-  getQuestionForChallenger() {
+  getQuestionForChallenger(email: string) {
     let headers = new HttpHeaders();
+    console.log(this.Auth.getDetails().email);
+    console.log(email);
     headers = headers.set('Content-Type', 'application/json').set('email', this.Auth.getDetails().email);
     const body = JSON.stringify(
       {
-        email: this.challenge_email
+        challengee: email
       }
     );
     return this.http.post(this.questionurl, body, {headers: headers});
