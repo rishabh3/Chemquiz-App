@@ -8,18 +8,30 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class AuthService {
 
   private loggedInStatus = false;
-
+  private email = '';
+  private token = '';
+  private name = '';
   constructor(private http: HttpClient) { }
 
-  setLoggedIn(value: boolean) {
+  setLoggedIn(value: boolean, email: string, token: string,name: string) {
     this.loggedInStatus = value;
+    this.email = email;
+    this.token = token;
+    this.name = name;
   }
 
   get isLoggedIn() {
     return this.loggedInStatus;
   }
 
-  getUserDetails(email: string, password: string) {
+  getDetails(){
+    return {
+      email : this.email,
+      name: this.name
+    }
+  }
+
+  invokeLogin(email: string, password: string) {
     // Post the details to heroku and return error or user info
     console.log('service kicked in');
     console.log(email, password);
