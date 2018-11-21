@@ -1,0 +1,10 @@
+.card {
+    margin: 10% auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.btn-primary.custom-btn {
+	background-color: #352f64;
+	border-color: #352f64;
+}
