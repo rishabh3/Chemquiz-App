@@ -1,7 +1,11 @@
 <div class="card" style="width: 18rem;" [ngStyle]="{'display':LoginDisplay}">
     <div class="card-body">
         <h5 class="card-title">QuizApp</h5>
-        <p class="card-text">Login to continue your journey of eternal knowledge</p>
+        <p class="card-text">Register to discover your journey of eternal knowledge</p>
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" name="name" [(ngModel)]="name" #ctrl="ngModel" required>
+        </div>
         <div class="form-group">
             <label>Email</label>
             <input type="text" class="form-control" name="email" [(ngModel)]="email" #ctrl="ngModel" required>
@@ -10,8 +14,8 @@
             <label>Password</label>
             <input type="password" class="form-control" name="password" [(ngModel)]="password" #ctrl="ngModel" required>
         </div>
-        <button class="btn btn-primary custom-btn" (click)="submit(email,password)">Let's go</button>
-        <a class="nav-link" routerLink="/register">Not a user?</a> 
+        <button class="btn btn-primary custom-btn" (click)="submit(name,email,password)">Let's go</button>
+        <a class="nav-link" routerLink="/login">Already a user?</a> 
         <div [ngStyle]="{'display':display}" style="color:red">
                 {{LoginError}}
         </div>

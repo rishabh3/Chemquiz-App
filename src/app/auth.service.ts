@@ -10,20 +10,25 @@ export class AuthService {
   private loggedInStatus = false;
   private email = '';
   private token = '';
+  private name = '';
   constructor(private http: HttpClient) { }
 
-  setLoggedIn(value: boolean, email: string, token: string) {
+  setLoggedIn(value: boolean, email: string, token: string, name: string) {
     this.loggedInStatus = value;
     this.email = email;
     this.token = token;
+    this.name = name;
   }
 
   get isLoggedIn() {
     return this.loggedInStatus;
   }
 
-  getDetails(){
-    return this.email;
+  getDetails() {
+    return {
+      email : this.email,
+      name: this.name
+    };
   }
 
   invokeLogin(email: string, password: string) {
