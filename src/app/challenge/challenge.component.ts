@@ -60,7 +60,14 @@ export class ChallengeComponent implements OnInit {
     this.challenge.sendStats(this.score);
     this.score = 0;
     this.questionNumber = 0;
-    this.challenge.challengeRegister(this.email);
+    this.challenge.challengeRegister(this.email).subscribe(
+      (data: any) => {
+        console.log(data);
+      },
+      (err: HttpErrorResponse) => {
+        console.log(err.error);
+      }
+    );
   }
 
   checkAnswer() {

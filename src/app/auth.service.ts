@@ -45,7 +45,7 @@ export class AuthService {
     return this.http.post(url, body, {headers: headers});
   }
 
-  invokeJWTLogin(JWT: string){
+  invokeJWTLogin(JWT: string) {
     let headers = new HttpHeaders();
     headers = headers.set('Authorization', JWT);
     const url = 'https://chemquiz.herokuapp.com/protec';

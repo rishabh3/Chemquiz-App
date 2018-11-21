@@ -21,8 +21,13 @@ export class ChallengeService {
 
   challengeRegister(email: string) {
     let headers = new HttpHeaders();
-    headers = headers.set('email', email);
-    return this.http.get(this.challengeregurl, {headers: headers});
+    headers = headers.set('Content-Type', 'application/json').set('email', this.Auth.getDetails().email);
+    const body = JSON.stringify(
+      {
+        chal: email
+      }
+    );
+    return this.http.post(this.challengeregurl, body, {headers: headers});
   }
 
   getQuestionForChallenger(email: string) {
