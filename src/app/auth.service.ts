@@ -13,7 +13,7 @@ export class AuthService {
   private name = '';
   constructor(private http: HttpClient) { }
 
-  setLoggedIn(value: boolean, email: string, token: string,name: string) {
+  setLoggedIn(value: boolean, email: string, token: string, name: string) {
     this.loggedInStatus = value;
     this.email = email;
     this.token = token;
@@ -24,11 +24,11 @@ export class AuthService {
     return this.loggedInStatus;
   }
 
-  getDetails(){
+  getDetails() {
     return {
       email : this.email,
       name: this.name
-    }
+    };
   }
 
   invokeLogin(email: string, password: string) {

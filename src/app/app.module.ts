@@ -55,8 +55,7 @@ import { CookieService } from 'ngx-cookie-service';
         },
         {
           path: 'quiz',
-          component: QuizComponent,
-          // canActivate: [AuthGuard]
+          component: QuizComponent
         },
         {
           path: 'periodictable',
