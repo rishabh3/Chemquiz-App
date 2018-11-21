@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../auth.service';
 import { HttpErrorResponse } from '@angular/common/http';
 import { Router } from '@angular/router';
+import { CookieService } from 'ngx-cookie-service';
 
 @Component({
   selector: 'app-login',
@@ -9,18 +10,20 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+  cookieValue = 'UNKNOWN';
   LoginError = '';
   name = '';
-  constructor(private Auth: AuthService, private router: Router) {}
+  constructor(private Auth: AuthService, private router: Router, private cookieService: CookieService) {}
   ngOnInit() {
-    // console.log('Entered');
+    //remove the cookie before each login
+    this.cookieService.delete('Auth');
   }
   submit(email: string, password: string) {
     this.Auth.invokeLogin(email, password).subscribe(
       (data: any) => {
-        console.log(data);
         this.router.navigate(['dashboard']);
         this.Auth.setLoggedIn(true,data.user.email,data.token,data.user.name);
+        this.cookieService.set( 'Auth', data.token);
       },
       (err: HttpErrorResponse) => {
         if(err.status == 401){

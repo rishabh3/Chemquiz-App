@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../auth.service';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { Router } from '@angular/router';
+import { CookieService } from 'ngx-cookie-service';
 
 @Component({
   selector: 'app-register',
@@ -9,10 +10,12 @@ import { Router } from '@angular/router';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-
-  constructor(private Auth: AuthService, private router: Router, private http: HttpClient) { }
+  cookieValue = 'UNKNOWN';
+  constructor(private Auth: AuthService, private router: Router, private http: HttpClient, private cookieService: CookieService) { }
 
   ngOnInit() {
+    //remove the cookie before each login
+    this.cookieService.delete('Auth');
   }
   LoginError = '';
   submit(name:string, email: string, password: string) {
@@ -32,11 +35,7 @@ export class RegisterComponent implements OnInit {
             //Success
             this.router.navigate(['dashboard']);
             this.Auth.setLoggedIn(true,data.user.email,data.token,data.user.name);
-            // console.log(data)
-            // this.data.changeMessage(this.email+";"+this.token);
-           
-
-            // window.location.replace('/dashboard');
+            this.cookieService.set( 'Auth', data.token);
           }
       },
       (err: HttpErrorResponse) => {
