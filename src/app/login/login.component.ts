@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
+import { AuthService } from '../auth.service';
+import { HttpErrorResponse } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -10,34 +12,21 @@ export class LoginComponent implements OnInit {
   display = 'none';
   LoginDisplay = 'block';
   name = '';
-  constructor(private http: HttpClient) {}
+  constructor(private Auth: AuthService, private router: Router) {}
   ngOnInit() {
     console.log('Entered');
   }
   submit(email: string, password: string) {
-    let headers = new HttpHeaders();
-    console.log('submitted');
-    headers = headers.set('Content-Type', 'application/json; charset=utf-8');
-    const url = 'https://chemquiz.herokuapp.com/login';
-    const body = JSON.stringify({email: email,
-                                password: password});
-    this.http.post(url, body, {headers: headers}).subscribe(
+    this.Auth.getUserDetails(email, password).subscribe(
       (data: any) => {
-          console.log(data);
-          if (data.user.email) {
-            this.display = 'block';
-            this.LoginDisplay = 'none';
-            this.name = data.user.email;
-          }
+        console.log(data);
+        this.router.navigate(['dashboard']);
+        this.Auth.setLoggedIn(true);
       },
       (err: HttpErrorResponse) => {
-          if (err.error instanceof Error) {
-              console.log('Client-side error occured.');
-          } else {
-              console.log('Server-side error occured.');
-          }
+        window.alert(err.error);
       }
-  );
+    );
   }
 
 }

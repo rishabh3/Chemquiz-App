@@ -14,6 +14,9 @@ import { QuizComponent } from './quiz/quiz.component';
 import { CompoundComponent } from './compound/compound.component';
 import { ProfileComponent } from './profile/profile.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { AuthGuard } from './auth.guard';
+import { AuthService } from './auth.service';
+import { CanActivate } from '@angular/router/src/utils/preactivation';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
       [
         {
           path: 'dashboard',
-          component: DashboardComponent
+          component: DashboardComponent,
+          canActivate: [AuthGuard]
         },
         {
           path: 'login',
@@ -44,19 +48,23 @@ import { NotfoundComponent } from './notfound/notfound.component';
         },
         {
           path: 'quiz',
-          component: QuizComponent
+          component: QuizComponent,
+          canActivate: [AuthGuard]
         },
         {
           path: 'periodictable',
-          component: PeriodicQuizComponent
+          component: PeriodicQuizComponent,
+          canActivate: [AuthGuard]
         },
         {
           path: 'compound',
-          component: CompoundComponent
+          component: CompoundComponent,
+          canActivate: [AuthGuard]
         },
         {
           path: 'profile',
-          component: ProfileComponent
+          component: ProfileComponent,
+          canActivate: [AuthGuard]
         },
         {
           path: '**',
@@ -65,7 +73,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
       ]
     )
   ],
-  providers: [],
+  providers: [AuthService, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
