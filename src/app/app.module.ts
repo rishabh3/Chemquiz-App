@@ -17,7 +17,6 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { AuthGuard } from './auth.guard';
 import { AuthService } from './auth.service';
 import { CanActivate } from '@angular/router/src/utils/preactivation';
-import { UnauthorisedComponent } from './unauthorised/unauthorised.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +29,6 @@ import { UnauthorisedComponent } from './unauthorised/unauthorised.component';
     CompoundComponent,
     ProfileComponent,
     NotfoundComponent,
-    UnauthorisedComponent
   ],
   imports: [
     BrowserModule,
@@ -47,10 +45,6 @@ import { UnauthorisedComponent } from './unauthorised/unauthorised.component';
         {
           path: 'login',
           component: LoginComponent
-        },
-        {
-          path: 'unauthorised',
-          component: UnauthorisedComponent
         },
         {
           path: 'quiz',
