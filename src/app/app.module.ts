@@ -18,6 +18,7 @@ import { AuthGuard } from './auth.guard';
 import { AuthService } from './auth.service';
 import { CanActivate } from '@angular/router/src/utils/preactivation';
 import { RegisterComponent } from './register/register.component';
+import { ChallengeComponent } from './challenge/challenge.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { RegisterComponent } from './register/register.component';
     CompoundComponent,
     ProfileComponent,
     NotfoundComponent,
-    RegisterComponent
+    RegisterComponent,
+    ChallengeComponent
   ],
   imports: [
     BrowserModule,
@@ -54,12 +56,17 @@ import { RegisterComponent } from './register/register.component';
         },
         {
           path: 'quiz',
-          component: QuizComponent
+          component: QuizComponent,
+          canActivate: [AuthGuard]
         },
         {
           path: 'periodictable',
           component: PeriodicQuizComponent,
           canActivate: [AuthGuard]
+        },
+        {
+          path: 'challenge',
+          component: ChallengeComponent
         },
         {
           path: 'compound',

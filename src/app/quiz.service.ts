@@ -14,7 +14,9 @@ export class QuizService {
 
   getNextQuestion(level: number) {
     let headers = new HttpHeaders();
-    headers = headers.set('Content-Type', 'application/json; charset=utf-8').set('email', 'pratik.r.sampat@gmail.com');
+
+    headers = headers.set('Content-Type', 'application/json; charset=utf-8').set('email', this.auth.getDetails().email);
+
     const body = JSON.stringify(
       {
         level: level
@@ -26,9 +28,5 @@ export class QuizService {
   sendStats(score: number) {
     console.log(score);
     return 'ues';
-  }
-
-  sendChallenge() {
-    return this.http.get(this.challengeUrl);
   }
 }

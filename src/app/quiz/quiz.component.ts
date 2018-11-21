@@ -128,8 +128,5 @@ export class QuizComponent implements OnInit {
     }
   }
 
-  sendChallenge() {
-    this.quizservice.sendChallenge();
-  }
 
 }
