@@ -1,42 +1,53 @@
 <app-navbar></app-navbar>
 
-<div class="container" *ngIf="this.inProgress == false">
-    <div class="pb-2 mt-4 mb-2 border-bottom header">
-        <h4>Welcome to Chemistry Quiz</h4> 
+<div class="page">
+    <div class="container" *ngIf="this.inProgress == false">
+        <div class="pb-2 mt-4 mb-2 border-bottom header">
+            <h4>Welcome to Chemistry Quiz</h4> 
+        </div>
+        <br>
+        <button class="btn btn-secondary" (click)="startQuiz()">Take Quiz</button>
     </div>
-    <br>
-	<button class="btn btn-secondary" (click)="startQuiz()">Take Quiz</button>
-</div>
 
 
-<div class="background">
-<div class="container quiz-area w3-animate-right back" *ngIf="this.inProgress == true">
-    <div class="container back" id="score">
-            <p class="h3">Score: {{score}} </p>
-    </div><br/>
-    <div class="progress">
-            <div class="progress-bar" [style.width.%]="this.questionNumber*10"></div>
-    </div>
-    <div *ngIf="this.quizOver == false">
-        <h4 id="question">{{question}}</h4><br/>
-        <ul id="options">
-            <li *ngFor="let option of this.options">
-                <label  class="w3-animate-left">
-                    <h5><input type="radio" name="answer" value="{{option}}" (change)="onSelectionChange(option)">
-                    {{option}}</h5>
-                </label>
-            </li>
-        </ul>
-        <div class="container back">
-            <button (click)="checkAnswer()" *ngIf="this.answerMode == true">Submit</button> <br/>
-            <span *ngIf="this.displayError == true" class="w3-animate-right">Please Choose an option</span>
-            <div class="back" *ngIf="this.answerMode != true">
-                <button (click)="nextQuestion()" class="btn btn-primary next-question w3-animate-left">Next</button> <br/>
-                <span *ngIf="this.correctAns == true" class="w3-animate-right" id="correct">That is correct!</span>
-                <span *ngIf="this.correctAns == false" class="w3-animate-right" id="wrong">Sorry, that is an incorrect answer. The correct answer is {{this.correctAnswer}}</span>
+    <div class="background">
+        <div class="container quiz-area w3-animate-right back" *ngIf="this.inProgress == true">
+            <div class="container back" id="score">
+                    <p class="h3">Score: {{score}} </p>
+            </div><br/>
+            <div class="progress">
+                    <div class="progress-bar" [style.width.%]="this.questionNumber*10"></div>
+            </div>
+            <div *ngIf="this.quizOver == false">
+                <h4 id="question">{{question}}</h4><br/>
+                <ul id="options">
+                    <li *ngFor="let option of this.options">
+                        <label  class="w3-animate-left">
+                            <h5><input type="radio" name="answer" value="{{option}}" (change)="onSelectionChange(option)">
+                            {{option}}</h5>
+                        </label>
+                    </li>
+                </ul>
+                <div class="container back">
+                    <button (click)="checkAnswer()" *ngIf="this.answerMode == true">Submit</button> <br/>
+                    <span *ngIf="this.displayError == true" class="w3-animate-right">Please Choose an option</span>
+                    <div class="back" *ngIf="this.answerMode != true">
+                        <button (click)="nextQuestion()" class="btn btn-primary next-question w3-animate-left">Next</button> <br/>
+                        <span *ngIf="this.correctAns == true" class="w3-animate-right" id="correct">That is correct!</span>
+                        <span *ngIf="this.correctAns == false" class="w3-animate-right" id="wrong">Sorry, that is an incorrect answer. The correct answer is {{this.correctAnswer}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="back">
+                <div *ngIf="this.quizOver == true">
+                    <h2>Quiz is over</h2>
+                    <button (click)="resetQuiz()" class="w3-animate-zoom">Play again</button>
+                    <button (click)="sendChallenge()" class="w3-animate-zoom">Challenge</button>
+                </div>
             </div>
         </div>
     </div>
+
     <div class="back">
         <div *ngIf="this.quizOver == true">
             <h2>Quiz is over</h2>
