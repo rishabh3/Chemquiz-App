@@ -24,7 +24,7 @@ export class LoginComponent implements OnInit {
         this.Auth.setLoggedIn(true,data.user.email,data.token);
       },
       (err: HttpErrorResponse) => {
-        window.alert(err.error);
+        this.router.navigate(['unauthorised']);
       }
     );
   }

@@ -1,0 +1,18 @@
+#page{
+    margin-top: 3%;
+    margin-left: 10%;
+}
+#imgno{
+    height: 500px;
+}
+#unauthorised{
+    top:100px;
+    width:70%;
+    margin:auto;
+}
+#goback{
+    color:darkgrey;
+}
+#goback:hover{
+    color:rgb(128, 125, 125);
+}
