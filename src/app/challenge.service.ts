@@ -49,4 +49,8 @@ export class ChallengeService {
     return this.http.post(this.questionurl, body, {headers: headers});
   }
 
+  sendStats(score) {
+    console.log(score);
+  }
+
 }
