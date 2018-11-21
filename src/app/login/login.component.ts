@@ -22,12 +22,8 @@ export class LoginComponent implements OnInit {
     this.Auth.invokeLogin(email, password).subscribe(
       (data: any) => {
         this.router.navigate(['dashboard']);
-<<<<<<< HEAD
         this.Auth.setLoggedIn(true,data.user.email,data.token,data.user.name);
         this.cookieService.set( 'Auth', data.token);
-=======
-        this.Auth.setLoggedIn(true, data.user.email, data.token, data.user.name);
->>>>>>> f971790feeeee2eeb9c569029c8da9f18cd4c071
       },
       (err: HttpErrorResponse) => {
         if (err.status === 401) {
