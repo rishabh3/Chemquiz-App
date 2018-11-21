@@ -20,14 +20,13 @@ export class LoginComponent implements OnInit {
       (data: any) => {
         console.log(data);
         this.router.navigate(['dashboard']);
-        this.Auth.setLoggedIn(true,data.user.email,data.token,data.user.name);
+        this.Auth.setLoggedIn(true, data.user.email, data.token, data.user.name);
       },
       (err: HttpErrorResponse) => {
-        if(err.status == 401){
-          this.LoginError = "Invalid credentials";
-        }
-        else{
-          this.LoginError = "Server-side error occured.";
+        if (err.status === 401) {
+          this.LoginError = 'Invalid credentials';
+        } else {
+          this.LoginError = 'Server-side error occured.';
         }
       }
     );
