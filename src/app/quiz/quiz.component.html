@@ -47,4 +47,11 @@
             </div>
         </div>
     </div>
+    <div class="back">
+        <div *ngIf="this.quizOver == true">
+            <h2>Quiz is over</h2>
+            <button (click)="resetQuiz()" class="w3-animate-zoom">Play again</button>
+        </div>
+    </div>
+</div>
 </div>
