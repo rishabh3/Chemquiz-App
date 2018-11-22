@@ -3,3 +3,7 @@ nav{
     font-size:220px;
     background-color: rgb(0, 112, 184);
 }
+.notify{
+    position: absolute;
+    right: 10px;
+}
