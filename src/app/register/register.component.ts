@@ -23,7 +23,7 @@ export class RegisterComponent implements OnInit {
     console.log('submitted');
     headers = headers.set('Content-Type', 'application/json');
     // const url = 'https://chemquiz.herokuapp.com/register';
-    const url = 'http://localhost:8080/register'; // DEBUG
+    const url = 'https://chemquiz.herokuapp.com/register'; // DEBUG
     const body = JSON.stringify({
       name: name,
       email: email,

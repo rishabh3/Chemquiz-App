@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { ChallengeService } from '../challenge.service';
 import { HttpErrorResponse } from '@angular/common/http';
+import { AuthService } from '../auth.service';
+import { CookieService } from 'ngx-cookie-service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-challenge',
@@ -8,7 +11,7 @@ import { HttpErrorResponse } from '@angular/common/http';
   styleUrls: ['./challenge.component.css']
 })
 export class ChallengeComponent implements OnInit {
-
+  JWT =  '';
   private score: number;
   private inProgress = false;
   private questionData = null;
@@ -25,10 +28,32 @@ export class ChallengeComponent implements OnInit {
   private options: any;
   private scope: any;
 
-  constructor(private challenge: ChallengeService) { }
+  constructor(private challenge: ChallengeService, private router:Router,private Auth: AuthService, private cookieService:CookieService) { }
 
   ngOnInit() {
-    this.findChallenge();
+    if (!this.Auth.getDetails().name) {
+      if (!this.cookieService.get('Auth')) {
+        this.router.navigate(['login']);
+      } else {
+        this.JWT = this.cookieService.get('Auth');
+        this.Auth.invokeJWTLogin(this.JWT).subscribe(
+          (data: any) => {
+            console.log('Auto JWT authenticated');
+            this.Auth.setLoggedIn(true, data.email, this.JWT, data.name); // set details locally
+            this.findChallenge();
+            // this.cookieService.set( 'Auth', data.token);
+          },
+          (err: HttpErrorResponse) => {
+            // no matter what the error just route back to login
+            this.router.navigate(['login']);
+          }
+        );
+      }
+    }
+    else{
+      this.findChallenge();
+    }
+   
   }
 
   initialize(scope) {
