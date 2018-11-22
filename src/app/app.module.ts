@@ -43,6 +43,10 @@ import { CookieService } from 'ngx-cookie-service';
     RouterModule.forRoot(
       [
         {
+          path: '',
+          component: LoginComponent,
+        },
+        {
           path: 'dashboard',
           component: DashboardComponent,
           // canActivate: [AuthGuard]
