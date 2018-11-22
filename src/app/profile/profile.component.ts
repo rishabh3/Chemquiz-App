@@ -12,6 +12,8 @@ import { CookieService } from 'ngx-cookie-service';
 })
 export class ProfileComponent implements OnInit {
   JWT = ''
+  email = ''
+  name = ''
   constructor(private httpService: HttpClient, private cookieService: CookieService,private Auth: AuthService, private router: Router) { }
 
   ngOnInit() {
@@ -25,6 +27,8 @@ export class ProfileComponent implements OnInit {
           (data: any) => {
             console.log("Auto JWT authenticated");
             this.Auth.setLoggedIn(true,data.email,this.JWT,data.name); // set details locally
+            this.email = data.email;
+            this.name = data.name;
             // this.cookieService.set( 'Auth', data.token);
           },
           (err: HttpErrorResponse) => {
@@ -34,6 +38,10 @@ export class ProfileComponent implements OnInit {
         );
       }
     }
+    // var details = this.Auth.getDetails();
+    // console.log(details);
+    // this.name = details.name;
+    // this.email = details.email;
   }
 
 }
