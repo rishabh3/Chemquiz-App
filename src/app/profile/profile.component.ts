@@ -11,10 +11,10 @@ import { CookieService } from 'ngx-cookie-service';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-  JWT = ''
-  email = ''
-  name = ''
-  constructor(private httpService: HttpClient, private cookieService: CookieService,private Auth: AuthService, private router: Router) { }
+  JWT = '';
+  email = '';
+  name = '';
+  constructor(private httpService: HttpClient, private cookieService: CookieService, private Auth: AuthService, private router: Router) { }
 
   ngOnInit() {
     if (!this.Auth.getDetails().name) {
@@ -24,8 +24,8 @@ export class ProfileComponent implements OnInit {
         this.JWT = this.cookieService.get('Auth');
         this.Auth.invokeJWTLogin(this.JWT).subscribe(
           (data: any) => {
-            console.log("Auto JWT authenticated");
-            this.Auth.setLoggedIn(true,data.email,this.JWT,data.name); // set details locally
+            console.log('Auto JWT authenticated');
+            this.Auth.setLoggedIn(true, data.email, this.JWT, data.name); // set details locally
             this.email = data.email;
             this.name = data.name;
             // this.cookieService.set( 'Auth', data.token);
