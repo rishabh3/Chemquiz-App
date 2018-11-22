@@ -6,7 +6,7 @@
 .card {
     width: 30%;
     margin: auto; /* Added */
-    top: 50px;
+    top: 0px;
 }
 
 .heading{

@@ -41,3 +41,38 @@
 .header{
     margin-left: 1%;
 }
+
+.col1{
+    background-color: yellow;
+    color:black;
+}
+
+.col2{
+    background-color: palevioletred;
+    color:black;
+}
+
+.col2_1{
+    background-color: darkorange;
+    color:black;
+}
+
+.col2_2{
+    background-color: orange;
+    color:black;
+}
+
+.col3{
+    background-color: green;
+    color:black;
+}
+
+.col4{
+    background-color: greenyellow;
+    color:black;
+}
+
+.col5{
+    background-color: rgb(52, 219, 124)  ;
+    color:black;
+}
