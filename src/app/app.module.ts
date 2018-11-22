@@ -20,6 +20,7 @@ import { CanActivate } from '@angular/router/src/utils/preactivation';
 import { RegisterComponent } from './register/register.component';
 import { ChallengeComponent } from './challenge/challenge.component';
 import { CookieService } from 'ngx-cookie-service';
+import { NotificationComponent } from './notification/notification.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { CookieService } from 'ngx-cookie-service';
     ProfileComponent,
     NotfoundComponent,
     RegisterComponent,
-    ChallengeComponent
+    ChallengeComponent,
+    NotificationComponent
   ],
   imports: [
     BrowserModule,
@@ -90,6 +92,7 @@ import { CookieService } from 'ngx-cookie-service';
     )
   ],
   providers: [AuthService, AuthGuard, CookieService],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [NotificationComponent]
 })
 export class AppModule { }
