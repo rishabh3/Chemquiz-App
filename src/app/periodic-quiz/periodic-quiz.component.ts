@@ -12,27 +12,26 @@ import { CookieService } from 'ngx-cookie-service';
 })
 export class PeriodicQuizComponent implements OnInit {
 
-  constructor(private httpService: HttpClient, private cookieService: CookieService,private Auth: AuthService, private router: Router) { }
+  constructor(private httpService: HttpClient, private cookieService: CookieService, private Auth: AuthService, private router: Router) { }
   periodicData;
   clickedElement = {'name': null};
   display = 'none';
   JWT = '';
   ngOnInit() {
     // console.log( this.cookieService.get('Auth')); // dummy way to get cookies
-    if(!this.Auth.getDetails().name){
-      if(!this.cookieService.get('Auth')){
+    if (!this.Auth.getDetails().name) {
+      if (!this.cookieService.get('Auth')) {
         this.router.navigate(['login']);
-      }
-      else{
+      } else {
         this.JWT = this.cookieService.get('Auth');
         this.Auth.invokeJWTLogin(this.JWT).subscribe(
           (data: any) => {
-            console.log("Auto JWT authenticated");
-            this.Auth.setLoggedIn(true,data.email,this.JWT,data.name); // set details locally
+            console.log('Auto JWT authenticated');
+            this.Auth.setLoggedIn(true, data.email, this.JWT, data.name); // set details locally
             // this.cookieService.set( 'Auth', data.token);
           },
           (err: HttpErrorResponse) => {
-            // no matter what the error just route back to login 
+            // no matter what the error just route back to login
             this.router.navigate(['login']);
           }
         );

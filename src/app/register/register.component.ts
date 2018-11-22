@@ -10,21 +10,22 @@ import { CookieService } from 'ngx-cookie-service';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-  cookieValue = 'UNKNOWN';
   constructor(private Auth: AuthService, private router: Router, private http: HttpClient, private cookieService: CookieService) { }
+  cookieValue = 'UNKNOWN';
+  LoginError = '';
 
   ngOnInit() {
-    //remove the cookie before each login
+    // remove the cookie before each login
     this.cookieService.delete('Auth');
   }
-  LoginError = '';
-  submit(name:string, email: string, password: string) {
+  submit(name: string, email: string, password: string) {
     let headers = new HttpHeaders();
     console.log('submitted');
     headers = headers.set('Content-Type', 'application/json');
-    const url = 'https://chemquiz.herokuapp.com/register';
+    // const url = 'https://chemquiz.herokuapp.com/register';
+    const url = 'http://localhost:8080/register'; // DEBUG
     const body = JSON.stringify({
-      name: name, 
+      name: name,
       email: email,
       password: password
     });
@@ -32,9 +33,9 @@ export class RegisterComponent implements OnInit {
     this.http.post(url, body, {headers: headers}).subscribe(
       (data: any) => {
           if (data.user.email) {
-            //Success
+            // Success
             this.router.navigate(['dashboard']);
-            this.Auth.setLoggedIn(true,data.user.email,data.token,data.user.name);
+            this.Auth.setLoggedIn(true, data.user.email, data.token, data.user.name);
             this.cookieService.set( 'Auth', data.token);
           }
       },
@@ -43,13 +44,12 @@ export class RegisterComponent implements OnInit {
               console.log('Client-side error occured.');
           } else {
               console.log(err);
-              if(err.status == 401){
-                this.LoginError = "Invalid credentials";
+              if (err.status === 401) {
+                this.LoginError = 'Invalid credentials';
+              } else {
+                this.LoginError = 'Server-side error occured.';
               }
-              else{
-                this.LoginError = "Server-side error occured.";
-              }
-              
+
           }
       }
   );

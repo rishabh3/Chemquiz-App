@@ -7,8 +7,9 @@ import { AuthService } from './auth.service';
 })
 export class QuizService {
 
-  readonly url = 'https://chemquiz.herokuapp.com/quiz/nextQuestion';
-  readonly challengeUrl = 'https://chemquiz.herokuapp.com/quiz/nextQuestion';
+  // readonly url = 'https://chemquiz.herokuapp.com/quiz/nextQuestion';
+  // readonly challengeUrl = 'https://chemquiz.herokuapp.com/quiz/nextQuestion';
+  readonly url = 'http://localhost:8080/quiz/nextQuestion';
 
   constructor(private http: HttpClient, private auth: AuthService) { }
 

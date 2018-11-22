@@ -39,7 +39,8 @@ export class AuthService {
     let headers = new HttpHeaders();
     console.log('submitted');
     headers = headers.set('Content-Type', 'application/json; charset=utf-8');
-    const url = 'https://chemquiz.herokuapp.com/login';
+    // const url = 'https://chemquiz.herokuapp.com/login';
+    const url = 'http://localhost:8080/login';
     const body = JSON.stringify({email: email,
                                 password: password});
     return this.http.post(url, body, {headers: headers});
@@ -48,7 +49,7 @@ export class AuthService {
   invokeJWTLogin(JWT: string) {
     let headers = new HttpHeaders();
     headers = headers.set('Authorization', JWT);
-    const url = 'https://chemquiz.herokuapp.com/protec';
+    const url = 'http://localhost:8080/protec';
     return this.http.get(url, {headers: headers});
 
   }

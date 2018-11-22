@@ -37,7 +37,7 @@ export class ChallengeComponent implements OnInit {
       scope.inProgress = true;
       scope.score = 0;
       scope.quizOver = false;
-      scope.questionNumber = 0;
+      scope.questionNumber = 10;
       scope.answerMode = true;
       scope.chosenOption = null;
       scope.nextQuestion();

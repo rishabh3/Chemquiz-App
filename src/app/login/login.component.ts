@@ -15,7 +15,7 @@ export class LoginComponent implements OnInit {
   name = '';
   constructor(private Auth: AuthService, private router: Router, private cookieService: CookieService) {}
   ngOnInit() {
-    //remove the cookie before each login
+    // remove the cookie before each login
     this.cookieService.delete('Auth');
   }
   submit(email: string, password: string) {

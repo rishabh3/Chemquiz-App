@@ -11,24 +11,23 @@ import { CookieService } from 'ngx-cookie-service';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-  JWT = ''
-  constructor(private httpService: HttpClient, private cookieService: CookieService,private Auth: AuthService, private router: Router) { }
+  JWT = '';
+  constructor(private httpService: HttpClient, private cookieService: CookieService, private Auth: AuthService, private router: Router) { }
 
   ngOnInit() {
-    if(!this.Auth.getDetails().name){
-      if(!this.cookieService.get('Auth')){
+    if (!this.Auth.getDetails().name) {
+      if (!this.cookieService.get('Auth')) {
         this.router.navigate(['login']);
-      }
-      else{
+      } else {
         this.JWT = this.cookieService.get('Auth');
         this.Auth.invokeJWTLogin(this.JWT).subscribe(
           (data: any) => {
-            console.log("Auto JWT authenticated");
-            this.Auth.setLoggedIn(true,data.email,this.JWT,data.name); // set details locally
+            console.log('Auto JWT authenticated');
+            this.Auth.setLoggedIn(true, data.email, this.JWT, data.name); // set details locally
             // this.cookieService.set( 'Auth', data.token);
           },
           (err: HttpErrorResponse) => {
-            // no matter what the error just route back to login 
+            // no matter what the error just route back to login
             this.router.navigate(['login']);
           }
         );

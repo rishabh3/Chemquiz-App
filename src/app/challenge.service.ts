@@ -6,9 +6,12 @@ import { AuthService } from './auth.service';
   providedIn: 'root'
 })
 export class ChallengeService {
-  readonly questionurl = 'https://chemquiz.herokuapp.com/challenge/getQuestions';
-  readonly challengeurl = 'https://chemquiz.herokuapp.com/challenge/findChallenge';
-  readonly challengeregurl = 'https://chemquiz.herokuapp.com/challenge';
+  // readonly questionurl = 'https://chemquiz.herokuapp.com/challenge/getQuestions';
+  // readonly challengeurl = 'https://chemquiz.herokuapp.com/challenge/findChallenge';
+  // readonly challengeregurl = 'https://chemquiz.herokuapp.com/challenge';
+  readonly questionurl = 'http://localhost:8080/challenge/getQuestions';
+  readonly challengeurl = 'http://localhost:8080/challenge/findChallenge';
+  readonly challengeregurl = 'http://localhost:8080/challenge';
 
   constructor(private http: HttpClient, private Auth: AuthService) { }
 
