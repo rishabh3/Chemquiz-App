@@ -5,7 +5,7 @@
         <h4>Welcome to Challenge Chemistry Quiz</h4> 
     </div>
     <br>
-	<button class="btn btn-secondary" (click)="startQuiz()">Take Multiplayer Quiz</button>
+	<button class="btn btn-secondary" (click)="startQuiz()">Challenge Quiz</button>
 </div>
 
 
@@ -22,8 +22,8 @@
         <ul id="options">
             <li *ngFor="let option of this.options">
                 <label  class="w3-animate-left">
-                    <h5><input type="radio" name="answer" value="{{option}}" (change)="onSelectionChange(option)">
-                    {{option}}</h5>
+                    <h5><input type="radio" name="answer" value="{{option.answerText}}" (change)="onSelectionChange(option.answerText)">
+                    {{option.answerText}}</h5>
                 </label>
             </li>
         </ul>
@@ -40,7 +40,7 @@
     <div class="back">
         <div *ngIf="this.quizOver == true">
             <h2>Quiz is over</h2>
-            <button (click)="resetQuiz()" class="w3-animate-zoom">Play again</button>
+            <button (click)="resetQuiz()" class="w3-animate-zoom">Send Challenge</button>
         </div>
     </div>
 </div>
