@@ -46,12 +46,12 @@ export class ChallengeService {
     return this.http.post(this.questionurl, body, {headers: headers});
   }
 
-  getQuestionForChallengee() {
+  getQuestionForChallengee(email: string) {
     let headers = new HttpHeaders();
     headers =  headers.set('Content-Type', 'application/json').set('email', this.Auth.getDetails().email);
     const body = JSON.stringify(
       {
-        challenger: 'pratik.r.sampat@gmail.com'
+        challenger: email
       }
     );
     return this.http.post(this.questionurl, body, {headers: headers});

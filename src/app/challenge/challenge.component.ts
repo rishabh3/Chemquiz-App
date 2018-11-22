@@ -4,11 +4,13 @@ import { HttpErrorResponse } from '@angular/common/http';
 import { AuthService } from '../auth.service';
 import { CookieService } from 'ngx-cookie-service';
 import { Router } from '@angular/router';
+import { NotificationhandlerService } from '../notificationhandler.service';
 
 @Component({
   selector: 'app-challenge',
   templateUrl: './challenge.component.html',
-  styleUrls: ['./challenge.component.css']
+  styleUrls: ['./challenge.component.css'],
+  providers: [NotificationhandlerService]
 })
 export class ChallengeComponent implements OnInit {
   JWT =  '';
@@ -28,7 +30,9 @@ export class ChallengeComponent implements OnInit {
   private options: any;
   private scope: any;
 
-  constructor(private challenge: ChallengeService, private router:Router,private Auth: AuthService, private cookieService:CookieService) { }
+  // tslint:disable-next-line:max-line-length
+  constructor(private challenge: ChallengeService, private router: Router, private Auth: AuthService, private cookieService: CookieService, private handler: NotificationhandlerService) {
+  }
 
   ngOnInit() {
     if (!this.Auth.getDetails().name) {
@@ -49,11 +53,11 @@ export class ChallengeComponent implements OnInit {
           }
         );
       }
+    } else {
+      if (this.handler.getChallengeAccepted() === false) {
+        this.findChallenge();
+      }
     }
-    else{
-      this.findChallenge();
-    }
-   
   }
 
   initialize(scope) {
@@ -72,6 +76,11 @@ export class ChallengeComponent implements OnInit {
   startQuiz() {
     const scope = this;
     this.getQuestionSetForChallenger(this.initialize, scope);
+  }
+
+  startChallengeQuiz() {
+    const scope = this;
+    this.getQuestionSetForChallengee(this.initialize, scope);
   }
 
   onSelectionChange(option) {
@@ -150,6 +159,19 @@ export class ChallengeComponent implements OnInit {
     */
     console.log(this.email);
     this.challenge.getQuestionForChallenger(this.email).subscribe(
+      (data: any) => {
+        this.questionData = data.questions;
+        console.log(this.questionData);
+        callback(scope);
+      },
+      (err: any) => {
+        console.log(err.error);
+      }
+    );
+  }
+
+  getQuestionSetForChallengee(callback, scope) {
+    this.challenge.getQuestionForChallengee(this.handler.getChallenger()).subscribe(
       (data: any) => {
         this.questionData = data.questions;
         console.log(this.questionData);

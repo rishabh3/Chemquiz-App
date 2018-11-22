@@ -31,6 +31,7 @@ export class NavbarComponent implements OnInit {
   ngAfterViewInit() {
     console.log(this.viewContainerRef);
     this.notify.setRootViewContainerRef(this.viewContainerRef);
+    this.notify.addNotification('Rishabh');
   }
 
   getSource() {

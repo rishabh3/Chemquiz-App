@@ -1,5 +1,6 @@
 import { Injectable, Inject, ComponentFactoryResolver, EmbeddedViewRef } from '@angular/core';
 import { NotificationComponent } from './notification/notification.component';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root'
@@ -7,7 +8,7 @@ import { NotificationComponent } from './notification/notification.component';
 export class NotificationService {
   private rootViewContainer: any;
   private component: any;
-  constructor(private factoryResolver: ComponentFactoryResolver) {
+  constructor(private factoryResolver: ComponentFactoryResolver, private router: Router) {
    }
 
   public setRootViewContainerRef(viewContainerRef) {
@@ -20,7 +21,8 @@ export class NotificationService {
      this.component = factory.create(this.rootViewContainer);
      this.component.instance.setEmail(email);
      this.component.instance.setComp(this.component);
-     console.log(this.component.instance);
+     this.component.instance.setRouter(this.router);
+     console.log(this.component);
      this.rootViewContainer.insert(this.component.hostView);
      this.component.changeDetectorRef.detectChanges();
    }
