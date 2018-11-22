@@ -1,0 +1,1742 @@
+{
+    "1": [
+        "1",
+        "Acetaldehyde",
+        "C2H4O",
+        "44.053",
+        "0-30% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Acetaldehyde",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Acetaldehyde-2D-flat.svg/110px-Acetaldehyde-2D-flat.svg.png",
+        "Lewis structure of acetaldehyde"
+    ],
+    "2": [
+        "2",
+        "Acetamide",
+        "C2H5NO",
+        "59.068",
+        "0-6% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Acetamide",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Acetamide_skeletal.svg/110px-Acetamide_skeletal.svg.png",
+        "Acetamide skeletal.svg"
+    ],
+    "3": [
+        "3",
+        "Acetic acid",
+        "CH3COOH",
+        "60.052",
+        "0-100% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Acetic_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Acetic-acid-2D-skeletal.svg/110px-Acetic-acid-2D-skeletal.svg.png",
+        "Skeletal formula of acetic acid"
+    ],
+    "4": [
+        "4",
+        "Acetone",
+        "C3H6O",
+        "58.080",
+        "0-100% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Acetone",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Acetone-CRC-MW-ED-dimensions-2D.png/136px-Acetone-CRC-MW-ED-dimensions-2D.png",
+        "Full structural formula of acetone with dimensions"
+    ],
+    "5": [
+        "5",
+        "Acetonitrile",
+        "C2H3N",
+        "41.053",
+        "0-16% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Acetonitrile",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Acetonitrile-2D-skeletal.png/110px-Acetonitrile-2D-skeletal.png",
+        "Skeletal formula of acetonitrile"
+    ],
+    "6": [
+        "6",
+        "Aluminium chloride",
+        "AlCl3",
+        "133.33",
+        "0-40% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Aluminium_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Aluminium-trichloride-hexahydrate-white-and-yellow.jpg/150px-Aluminium-trichloride-hexahydrate-white-and-yellow.jpg",
+        "Aluminium(III) chloride"
+    ],
+    "7": [
+        "7",
+        "Aluminium nitrate",
+        "Al(NO3)3",
+        "212.994",
+        "-",
+        "https://en.wikipedia.org/wiki/Aluminium_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Aluminium_nitrate.png/150px-Aluminium_nitrate.png",
+        "Aluminium nitrate.png"
+    ],
+    "8": [
+        "8",
+        "Aluminium sulfate",
+        "Al2(SO4)3",
+        "342.132",
+        "0-26% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Aluminium_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Aluminium_sulfate.jpg/220px-Aluminium_sulfate.jpg",
+        "Aluminium sulfate hexadecahydrate"
+    ],
+    "9": [
+        "9",
+        "Ammonia",
+        "NH3",
+        "17.031",
+        "0-30% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Ammonia",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ammonia-3D-balls-A.png/110px-Ammonia-3D-balls-A.png",
+        "Ball-and-stick model of the ammonia molecule"
+    ],
+    "10": [
+        "10",
+        "Ammonium acetate",
+        "CH3COONH4",
+        "77.083",
+        "0-45% (25Â°C)",
+        "https://en.wikipedia.org/wiki/Ammonium_acetate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Ammonium-acetate-2D.png/100px-Ammonium-acetate-2D.png",
+        "Ammonium acetate skeletal formula"
+    ],
+    "11": [
+        "11",
+        "Ammonium carbonate",
+        "(NH4)2CO3",
+        "96.086",
+        "-",
+        "https://en.wikipedia.org/wiki/Ammonium_carbonate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Ammonium_carbonate.png/220px-Ammonium_carbonate.png",
+        "Ammonium carbonate.png"
+    ],
+    "12": [
+        "12",
+        "Ammonium chloride",
+        "NH4Cl",
+        "53.49",
+        "0-24% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Ammonium_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/NH4Cl.png/150px-NH4Cl.png",
+        "Unit cell of ammonium chloride"
+    ],
+    "13": [
+        "13",
+        "Ammonium dichromate",
+        "(NH4)2Cr2O7",
+        "252.063",
+        "0-20% (12Â°C)",
+        "https://en.wikipedia.org/wiki/Ammonium_dichromate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/%28NH4%292Cr2O7.JPG/220px-%28NH4%292Cr2O7.JPG",
+        "(NH4)2Cr2O7.JPG"
+    ],
+    "14": [
+        "14",
+        "Ammonium hydroxide",
+        "NH4OH",
+        "35.046",
+        "0-62% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Ammonium_hydroxide",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ammonia-3D-balls.png/110px-Ammonia-3D-balls.png",
+        "Ball-and-stick model of the ammonia molecule"
+    ],
+    "15": [
+        "15",
+        "Ammonium nitrate",
+        "NH4NO3",
+        "80.043",
+        "0-50% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Ammonium_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Ammonium-nitrate-2D.svg/220px-Ammonium-nitrate-2D.svg.png",
+        "Structural formula"
+    ],
+    "16": [
+        "16",
+        "Ammonium oxalate",
+        "(NH4)2C2O4",
+        "124.096",
+        "-",
+        "https://en.wikipedia.org/wiki/Ammonium_oxalate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Ammonium_oxalate.svg/200px-Ammonium_oxalate.svg.png",
+        "Ammonium oxalate.svg"
+    ],
+    "17": [
+        "17",
+        "Ammonium sulfate",
+        "(NH4)2SO4",
+        "132.13",
+        "0-50% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Ammonium_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Ammonium_sulfate.png/180px-Ammonium_sulfate.png",
+        "Ammonium sulfate.png"
+    ],
+    "18": [
+        "18",
+        "Antimony(III) chloride",
+        "SbCl3",
+        "228.11",
+        "-",
+        "https://en.wikipedia.org/wiki/Antimony(III)_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/SbCl3.png/120px-SbCl3.png",
+        "Stereo structural formula of antimony trichloride"
+    ],
+    "19": [
+        "19",
+        "Antimony(V) chloride",
+        "SbCl5",
+        "299.01",
+        "-",
+        "https://en.wikipedia.org/wiki/Antimony(V)_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Antimony-pentachloride-3D-balls.png/100px-Antimony-pentachloride-3D-balls.png",
+        "Antimony pentachloride"
+    ],
+    "20": [
+        "20",
+        "Barium chloride",
+        "BaCl2",
+        "208.23",
+        "0-26% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Barium_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Cotunnite_structure.png/220px-Cotunnite_structure.png",
+        "Cotunnite structure.png"
+    ],
+    "21": [
+        "21",
+        "Barium hydroxide",
+        "Ba(OH)2",
+        "171.34",
+        "-",
+        "https://en.wikipedia.org/wiki/Barium_hydroxide",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ba%28OH%292monohydrate.tif/lossless-page1-220px-Ba%28OH%292monohydrate.tif.png",
+        "Ba(OH)2monohydrate.tif"
+    ],
+    "22": [
+        "22",
+        "Barium nitrate",
+        "Ba(NO3)2",
+        "261.34",
+        "-",
+        "https://en.wikipedia.org/wiki/Barium_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Dusi%C4%8Dnan_barnat%C3%BD.JPG/220px-Dusi%C4%8Dnan_barnat%C3%BD.JPG",
+        "barium nitrate"
+    ],
+    "23": [
+        "23",
+        "Bismuth(III) chloride",
+        "BiCl3",
+        "315.33",
+        "-",
+        "https://en.wikipedia.org/wiki/Bismuth(III)_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Chlorid_bismutit%C3%BD.PNG/220px-Chlorid_bismutit%C3%BD.PNG",
+        "Bismuth chloride"
+    ],
+    "24": [
+        "24",
+        "Bismuth(III) nitrate",
+        "Bi(NO3)3",
+        "394.99",
+        "-",
+        "https://en.wikipedia.org/wiki/Bismuth(III)_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Dusi%C4%8Dnan_bismutit%C3%BD.JPG/220px-Dusi%C4%8Dnan_bismutit%C3%BD.JPG",
+        "Dusičnan bismutitý.JPG"
+    ],
+    "25": [
+        "25",
+        "Butan-1-ol",
+        "C4H10O",
+        "74.123",
+        "0-8% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Butan-1-ol",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/1-Butanol_skeletal.svg/110px-1-Butanol_skeletal.svg.png",
+        "Skeletal formula of n-butanol"
+    ],
+    "26": [
+        "26",
+        "Butyric acid",
+        "C4H8O2",
+        "88.106",
+        "0-62% (25Â°C)",
+        "https://en.wikipedia.org/wiki/Butyric_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Butyric_acid_acsv.svg/100px-Butyric_acid_acsv.svg.png",
+        "Skeletal structure of butyric acid"
+    ],
+    "27": [
+        "27",
+        "Cadmium nitrate",
+        "Cd(NO3)2",
+        "236.42",
+        "0-50% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Cadmium_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Cadmium_nitrate.png/160px-Cadmium_nitrate.png",
+        "Skeletal formula of cadmium chloride"
+    ],
+    "28": [
+        "28",
+        "Cadmium sulfate",
+        "CdSO4",
+        "208.47",
+        "-",
+        "https://en.wikipedia.org/wiki/Cadmium_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/CdSO4%28H2O%29.jpg/220px-CdSO4%28H2O%29.jpg",
+        "Cadmium sulfate"
+    ],
+    "29": [
+        "29",
+        "Calcium chloride",
+        "CaCl2",
+        "110.98",
+        "0-40% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Calcium_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Calcium_chloride_CaCl2.jpg/220px-Calcium_chloride_CaCl2.jpg",
+        "Sample of calcium chloride"
+    ],
+    "30": [
+        "30",
+        "Calcium hydroxide",
+        "Ca(OH)2",
+        "74.092",
+        "-",
+        "https://en.wikipedia.org/wiki/Calcium_hydroxide",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Calcium_hydroxide.jpg/220px-Calcium_hydroxide.jpg",
+        "Calcium hydroxide"
+    ],
+    "31": [
+        "31",
+        "Calcium nitrate",
+        "Ca(NO3)2",
+        "164.086",
+        "0-68% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Calcium_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Calcium_nitrate.png/150px-Calcium_nitrate.png",
+        "picture of constituent ions"
+    ],
+    "32": [
+        "32",
+        "Calcium sulfate",
+        "CaSO4",
+        "136.13",
+        "-",
+        "https://en.wikipedia.org/wiki/Calcium_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/CaSO4.tif/lossless-page1-220px-CaSO4.tif.png",
+        "Calcium sulfate anhydrous"
+    ],
+    "33": [
+        "33",
+        "Carbon disulfide",
+        "CS2",
+        "76.13",
+        "-",
+        "https://en.wikipedia.org/wiki/Carbon_disulfide",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Carbon-disulfide-2D-dimensions.png/150px-Carbon-disulfide-2D-dimensions.png",
+        "Carbon disulfide"
+    ],
+    "34": [
+        "34",
+        "Chloroacetic acid",
+        "C2H3ClO2",
+        "94.49",
+        "0-32% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Chloroacetic_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Chloroacetic-acid-2D-skeletal.png/220px-Chloroacetic-acid-2D-skeletal.png",
+        "Chloroacetic acid"
+    ],
+    "35": [
+        "35",
+        "Chloroauric acid",
+        "HAuCl4",
+        "339.78",
+        "-",
+        "https://en.wikipedia.org/wiki/Chloroauric_acid",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/Wiki_letter_w.svg/40px-Wiki_letter_w.svg.png",
+        "Wiki letter w.svg"
+    ],
+    "36": [
+        "36",
+        "Chloroform",
+        "CHCl3",
+        "119.37",
+        "-",
+        "https://en.wikipedia.org/wiki/Chloroform",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Chloroform_displayed.svg/110px-Chloroform_displayed.svg.png",
+        "Chloroform displayed.svg"
+    ],
+    "37": [
+        "37",
+        "Chloroplatinic acid",
+        "H2PtCl6",
+        "409.80",
+        "-",
+        "https://en.wikipedia.org/wiki/Chloroplatinic_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Dihydrogen_hexachloroplatinate_%28IV%29_hexahydrate.svg/220px-Dihydrogen_hexachloroplatinate_%28IV%29_hexahydrate.svg.png",
+        "Structural formulas of the component ions of chloroplatinic acid"
+    ],
+    "38": [
+        "38",
+        "Chromium(III) chloride",
+        "CrCl3",
+        "158.35",
+        "0-14% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Chromium(III)_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Chromium%28III%29-chloride-purple-anhydrous-sunlight.jpg/220px-Chromium%28III%29-chloride-purple-anhydrous-sunlight.jpg",
+        "Chromium(III)-chloride-purple-anhydrous-sunlight.jpg"
+    ],
+    "39": [
+        "39",
+        "Chromium(III) nitrate",
+        "Cr(NO3)3",
+        "238.008",
+        "-",
+        "https://en.wikipedia.org/wiki/Chromium(III)_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Chromium_nitrate.svg/220px-Chromium_nitrate.svg.png",
+        "Chromium nitrate.svg"
+    ],
+    "40": [
+        "40",
+        "Chromium(III) sulfate",
+        "Cr2(SO4)3",
+        "392.16",
+        "0-40% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Chromium(III)_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chromium%28III%29_sulfate.jpg/220px-Chromium%28III%29_sulfate.jpg",
+        "Chromium(III) sulfate.jpg"
+    ],
+    "41": [
+        "41",
+        "Chromium(VI) oxide",
+        "CrO3",
+        "99.993",
+        "0-60% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Chromium(VI)_oxide",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/CrO3-from-xtal-1970-bulk-3D-balls.png/200px-CrO3-from-xtal-1970-bulk-3D-balls.png",
+        "Ball-and-stick model of chromium trioxide"
+    ],
+    "42": [
+        "42",
+        "Citric acid",
+        "C6H8O7",
+        "192.123",
+        "0-55% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Citric_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Zitronens%C3%A4ure_-_Citric_acid.svg/150px-Zitronens%C3%A4ure_-_Citric_acid.svg.png",
+        "Zitronensäure - Citric acid.svg"
+    ],
+    "43": [
+        "43",
+        "Cobalt(II) nitrate",
+        "Co(NO3)2",
+        "182.941",
+        "-",
+        "https://en.wikipedia.org/wiki/Cobalt(II)_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Cobalt%28II%29-nitrate-hexahydrate-sample.jpg/220px-Cobalt%28II%29-nitrate-hexahydrate-sample.jpg",
+        "Cobalt (II) Nitrate Hexahydrate Sample"
+    ],
+    "44": [
+        "44",
+        "Cobalt(II) sulfate",
+        "CoSO4",
+        "154.99",
+        "-",
+        "https://en.wikipedia.org/wiki/Cobalt(II)_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Cobaltsulfat.JPG/220px-Cobaltsulfat.JPG",
+        "Cobaltsulfat.JPG"
+    ],
+    "45": [
+        "45",
+        "Copper(I) chloride",
+        "Cu2Cl2",
+        "197.99",
+        "0-20% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Copper(I)_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Nantokite-unit-cell-3D-balls.png/180px-Nantokite-unit-cell-3D-balls.png",
+        "Unit cell of nantokite"
+    ],
+    "46": [
+        "46",
+        "Copper(II) chloride",
+        "CuCl2",
+        "134.45",
+        "0-20% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Copper(II)_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tolbachite-3D-balls.png/220px-Tolbachite-3D-balls.png",
+        "Tolbachite-3D-balls.png"
+    ],
+    "47": [
+        "47",
+        "Copper(II) nitrate",
+        "Cu(NO3)2",
+        "187.554",
+        "0-25% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Copper(II)_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Copper%28II%29-nitrate-monomer-2D-dimensions.png/220px-Copper%28II%29-nitrate-monomer-2D-dimensions.png",
+        "Copper(II)-nitrate-monomer-2D-dimensions.png"
+    ],
+    "48": [
+        "48",
+        "Copper(II) sulfate",
+        "CuSO4",
+        "159.60",
+        "0-20% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Copper(II)_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/CuSO45aq.jpg/150px-CuSO45aq.jpg",
+        "CuSO45aq.jpg"
+    ],
+    "49": [
+        "49",
+        "Dichloroacetic acid",
+        "C2H2Cl2O2",
+        "128.94",
+        "0-30% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Dichloroacetic_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Dichloroacetic-acid-2D-skeletal.png/110px-Dichloroacetic-acid-2D-skeletal.png",
+        "Dichloroacetic-acid-2D-skeletal.png"
+    ],
+    "50": [
+        "50",
+        "Diethyl ether",
+        "(C2H5)2O",
+        "74.123",
+        "0-5% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Diethyl_ether",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Diethyl_ether_chemical_structure.svg/220px-Diethyl_ether_chemical_structure.svg.png",
+        "Skeletal formula"
+    ],
+    "51": [
+        "51",
+        "Dimethylglyoxime",
+        "(CH3CNOH)2",
+        "116.120",
+        "-",
+        "https://en.wikipedia.org/wiki/Dimethylglyoxime",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Dimethylglyoxime.png/220px-Dimethylglyoxime.png",
+        "Dimethylglyoxime"
+    ],
+    "53": [
+        "53",
+        "Ethanol",
+        "C2H5OH",
+        "46.069",
+        "0-100% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Ethanol",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ethanol-2D-flat.svg/110px-Ethanol-2D-flat.svg.png",
+        "Full structural formula of ethanol"
+    ],
+    "54": [
+        "54",
+        "Ethylene glycol",
+        "(CH2OH)2",
+        "62.068",
+        "0-60% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Ethylene_glycol",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Ethylene_glycol.svg/220px-Ethylene_glycol.svg.png",
+        "Wireframe model of ethylene glycol"
+    ],
+    "55": [
+        "55",
+        "Formaldehyde",
+        "CH2O",
+        "30.026",
+        "0-40% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Formaldehyde",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Formaldehyde-2D.svg/110px-Formaldehyde-2D.svg.png",
+        "Skeletal fomula of formaldehyde with explicit hydrogens added"
+    ],
+    "56": [
+        "56",
+        "Formic acid",
+        "CH2O2",
+        "46.025",
+        "0-100% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Formic_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Formic_acid.svg/110px-Formic_acid.svg.png",
+        "Skeletal structure of formic acid"
+    ],
+    "57": [
+        "57",
+        "Fructose",
+        "C6H12O6",
+        "180.156",
+        "0-48% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Fructose",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Skeletal_Structure_of_Cyclic_D-Fructose.svg/150px-Skeletal_Structure_of_Cyclic_D-Fructose.svg.png",
+        "Skeletal Structure of Cyclic D-Fructose.svg"
+    ],
+    "58": [
+        "58",
+        "Glucose",
+        "C6H12O6",
+        "180.156",
+        "0-60% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Glucose",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Alpha-D-glucopyranose-2D-skeletal.png/220px-Alpha-D-glucopyranose-2D-skeletal.png",
+        "Alpha-D-glucopyranose-2D-skeletal.png"
+    ],
+    "59": [
+        "59",
+        "Glycerol",
+        "C3H8O3",
+        "92.094",
+        "0-100% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Glycerol",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Glycerin_Skelett.svg/220px-Glycerin_Skelett.svg.png",
+        "Glycerol"
+    ],
+    "60": [
+        "60",
+        "Hexafluorosilicic acid",
+        "H2SiF6",
+        "144.089",
+        "0-34% (17.5Â°C)",
+        "https://en.wikipedia.org/wiki/Hexafluorosilicic_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Hexafluorosilicic_acid_molecular_structure.png/220px-Hexafluorosilicic_acid_molecular_structure.png",
+        "Hexafluorosilicic acid molecular structure.png"
+    ],
+    "61": [
+        "61",
+        "Hydrazine",
+        "N2H4",
+        "32.046",
+        "0-60% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Hydrazine",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Hydrazin.svg/110px-Hydrazin.svg.png",
+        "Skeletal formula of hydrazine with all explicit hydrogens added"
+    ],
+    "62": [
+        "62",
+        "Hydrobromic acid",
+        "HBr",
+        "80.912",
+        "0-65% (25Â°C)",
+        "https://en.wikipedia.org/wiki/Hydrobromic_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Hydrogen-bromide-3D-vdW.svg/110px-Hydrogen-bromide-3D-vdW.svg.png",
+        "Ball-and-stick model of hydrogen bromide"
+    ],
+    "63": [
+        "63",
+        "Hydrochloric acid",
+        "HCl",
+        "36.46",
+        "0-40% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Hydrochloric_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Hydrogen-chloride-3D-vdW.svg/110px-Hydrogen-chloride-3D-vdW.svg.png",
+        "3D model of hydrogen chloride"
+    ],
+    "64": [
+        "64",
+        "Hydrocyanic acid",
+        "HCN",
+        "27.026",
+        "0-16% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Hydrocyanic_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Hydrogen-cyanide-2D.svg/220px-Hydrogen-cyanide-2D.svg.png",
+        "Hydrogen-cyanide-2D.svg"
+    ],
+    "65": [
+        "65",
+        "Hydrofluoric acid",
+        "HF",
+        "20.006",
+        "0-50% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Hydrofluoric_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Hydrogen-fluoride-3D-vdW.svg/110px-Hydrogen-fluoride-3D-vdW.svg.png",
+        "Ball-and-stick model of hydrogen fluoride"
+    ],
+    "66": [
+        "66",
+        "Hydrogen peroxide",
+        "H2O2",
+        "34.014",
+        "0-100% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Hydrogen_peroxide",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Wasserstoffperoxid.svg/110px-Wasserstoffperoxid.svg.png",
+        "Structural formula of hydrogen peroxide"
+    ],
+    "67": [
+        "67",
+        "Hydroiodic acid",
+        "HI",
+        "127.9",
+        "-",
+        "https://en.wikipedia.org/wiki/Hydroiodic_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Hydrogen-iodide-3D-vdW.svg/110px-Hydrogen-iodide-3D-vdW.svg.png",
+        "Space-filling model of hydrogen iodide"
+    ],
+    "68": [
+        "68",
+        "Iodic acid",
+        "HIO3",
+        "175.9",
+        "-",
+        "https://en.wikipedia.org/wiki/Iodic_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Iodic-acid-2D.png/220px-Iodic-acid-2D.png",
+        "Iodic acid"
+    ],
+    "69": [
+        "69",
+        "Iron(II) ammonium sulfate",
+        "FeSO4+(NH4)2SO4",
+        "284.04",
+        "-",
+        "https://en.wikipedia.org/wiki/Iron(II)_ammonium_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Mohr%27s_salt.png/220px-Mohr%27s_salt.png",
+        "Mohr's salt.png"
+    ],
+    "70": [
+        "70",
+        "Iron(II) sulfate",
+        "FeSO4",
+        "151.90",
+        "0-20% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Iron(II)_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Fe%28H2O%296SO4.png/220px-Fe%28H2O%296SO4.png",
+        "Skeletal formula of iron(II) sulfate"
+    ],
+    "71": [
+        "71",
+        "Iron(III) chloride",
+        "FeCl3",
+        "162.20",
+        "0-50% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Iron(III)_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Iron%28III%29_chloride_hexahydrate.jpg/220px-Iron%28III%29_chloride_hexahydrate.jpg",
+        "Iron(III) chloride hexahydrate.jpg"
+    ],
+    "72": [
+        "72",
+        "Iron(III) nitrate",
+        "Fe(NO3)3",
+        "241.857",
+        "0-25% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Iron(III)_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Ferric_nitrate_nonahydrate.jpg/220px-Ferric_nitrate_nonahydrate.jpg",
+        "Iron(III) nitrate nonahydrate"
+    ],
+    "73": [
+        "73",
+        "Iron(III) sulfate",
+        "Fe2(SO4)3",
+        "399.86",
+        "0-20% (17.5Â°C)",
+        "https://en.wikipedia.org/wiki/Iron(III)_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/S%C3%ADran_%C5%BEelezit%C3%BD.JPG/250px-S%C3%ADran_%C5%BEelezit%C3%BD.JPG",
+        "Iron(III) sulfate"
+    ],
+    "74": [
+        "74",
+        "Isobutanol",
+        "C4H10O",
+        "74.123",
+        "0-8% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Isobutanol",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Isobutanol-2D-skeletal.png/160px-Isobutanol-2D-skeletal.png",
+        "Skeletal formula of isobutanol"
+    ],
+    "75": [
+        "75",
+        "Lactic acid",
+        "C3H6O3",
+        "90.078",
+        "0-80% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Lactic_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Lactic-acid-skeletal.svg/110px-Lactic-acid-skeletal.svg.png",
+        "Skeletal formula of L-lactic acid"
+    ],
+    "76": [
+        "76",
+        "Lactose",
+        "C12H22O11",
+        "342.297",
+        "0-18% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Lactose",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Beta-D-Lactose.svg/300px-Beta-D-Lactose.svg.png",
+        "Beta-D-Lactose.svg"
+    ],
+    "77": [
+        "77",
+        "Lead(II) acetate",
+        "Pb(C2H3O2)2",
+        "325.3",
+        "-",
+        "https://en.wikipedia.org/wiki/Lead(II)_acetate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/PbAc2_%28jonowo%29.png/150px-PbAc2_%28jonowo%29.png",
+        "Skeletal formula of lead(II) acetate"
+    ],
+    "78": [
+        "78",
+        "Lead(II) chloride",
+        "PbCl2",
+        "278.1",
+        "-",
+        "https://en.wikipedia.org/wiki/Lead(II)_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/PbCl2precipiate.jpg/220px-PbCl2precipiate.jpg",
+        "Lead(II) chloride precipitation"
+    ],
+    "79": [
+        "79",
+        "Lead(II) nitrate",
+        "Pb(NO3)2",
+        "331.2",
+        "-",
+        "https://en.wikipedia.org/wiki/Lead(II)_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Lead%28II%29_nitrate_1.jpg/220px-Lead%28II%29_nitrate_1.jpg",
+        "Lead(II) nitrate 1.jpg"
+    ],
+    "80": [
+        "80",
+        "Lead(IV) acetate",
+        "Pb(C2H3O2)4",
+        "443.4",
+        "-",
+        "https://en.wikipedia.org/wiki/Lead(IV)_acetate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Lead-tetraacetate-3D-balls.png/220px-Lead-tetraacetate-3D-balls.png",
+        "Lead-tetraacetate-3D-balls.png"
+    ],
+    "81": [
+        "81",
+        "Lithium chloride",
+        "LiCl",
+        "42.39",
+        "0-30% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Lithium_chloride",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        ""
+    ],
+    "82": [
+        "82",
+        "Magnesium chloride",
+        "MgCl2",
+        "95.21",
+        "0-30% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Magnesium_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Magnesium_chloride.jpg/220px-Magnesium_chloride.jpg",
+        "Magnesium chloride.jpg"
+    ],
+    "83": [
+        "83",
+        "Magnesium nitrate",
+        "Mg(NO3)2",
+        "148.313",
+        "-",
+        "https://en.wikipedia.org/wiki/Magnesium_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Magnesium_nitrate.png/150px-Magnesium_nitrate.png",
+        "Magnesium nitrate"
+    ],
+    "84": [
+        "84",
+        "Magnesium sulfate",
+        "MgSO4",
+        "120.36",
+        "0-26% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Magnesium_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Mgaq6SO4_with_full_charge.png/220px-Mgaq6SO4_with_full_charge.png",
+        "Mgaq6SO4 with full charge.png"
+    ],
+    "85": [
+        "85",
+        "Maleic acid",
+        "C4H4O4",
+        "116.072",
+        "0-40% (25Â°C)",
+        "https://en.wikipedia.org/wiki/Maleic_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Maleins%C3%A4ure.svg/220px-Maleins%C3%A4ure.svg.png",
+        "Skeletal formula of maleic acid"
+    ],
+    "86": [
+        "86",
+        "Malonic acid",
+        "C3H4O4",
+        "104.061",
+        "0-40% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Malonic_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Malons%C3%A4ure.svg/220px-Malons%C3%A4ure.svg.png",
+        "Skeletal formula of malonic acid"
+    ],
+    "87": [
+        "87",
+        "Maltose",
+        "C12H22O11",
+        "342.297",
+        "0-60% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Maltose",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Maltose2.svg/220px-Maltose2.svg.png",
+        "α-Maltose"
+    ],
+    "88": [
+        "88",
+        "Manganese(II) chloride",
+        "MnCl2",
+        "125.84",
+        "-",
+        "https://en.wikipedia.org/wiki/Manganese(II)_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Cis-MnCl2%28H2O%294.png/220px-Cis-MnCl2%28H2O%294.png",
+        "Cis-MnCl2(H2O)4.png"
+    ],
+    "89": [
+        "89",
+        "Manganese(II) sulfate",
+        "MnSO4",
+        "150.99",
+        "0-30% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Manganese(II)_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Manganese%28II%29_sulfate_close-up.jpg/220px-Manganese%28II%29_sulfate_close-up.jpg",
+        "Manganese(II) sulfate close-up.jpg"
+    ],
+    "90": [
+        "90",
+        "Mannitol",
+        "C6H14O6",
+        "182.172",
+        "0-15% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Mannitol",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Mannitol_structure.png/220px-Mannitol_structure.png",
+        "Mannitol structure.png"
+    ],
+    "91": [
+        "91",
+        "Mercury(II) chloride",
+        "HgCl2",
+        "271.49",
+        "-",
+        "https://en.wikipedia.org/wiki/Mercury(II)_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Mercury%28II%29-chloride-xtal-1980-3D-balls.png/220px-Mercury%28II%29-chloride-xtal-1980-3D-balls.png",
+        "Ball-and-stick model of the crystal structure"
+    ],
+    "92": [
+        "92",
+        "Mercury(II) nitrate",
+        "Hg(NO3)2",
+        "324.60",
+        "-",
+        "https://en.wikipedia.org/wiki/Mercury(II)_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Mercury_nitrate.png/150px-Mercury_nitrate.png",
+        "Mercury nitrate.png"
+    ],
+    "93": [
+        "93",
+        "Mercury(II) sulfate",
+        "HgSO4",
+        "296.65",
+        "-",
+        "https://en.wikipedia.org/wiki/Mercury(II)_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Kwik%28II%29sulfaat_t.png/120px-Kwik%28II%29sulfaat_t.png",
+        "Kwik(II)sulfaat t.png"
+    ],
+    "94": [
+        "94",
+        "Methanol",
+        "CH3OH",
+        "32.042",
+        "0-100% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Methanol",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Methanol_Lewis.svg/110px-Methanol_Lewis.svg.png",
+        "Skeletal formula of methanol with some explicit hydrogens added"
+    ],
+    "95": [
+        "95",
+        "Methyl acetate",
+        "C3H6O2",
+        "74.079",
+        "0-20% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Methyl_acetate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Methyl_acetate.svg/150px-Methyl_acetate.svg.png",
+        "Skeletal formula of methyl acetate"
+    ],
+    "96": [
+        "96",
+        "Nickel chloride",
+        "NiCl2",
+        "129.59",
+        "0-30% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Nickel_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Nickel%28II%29-chloride-hexahydrate-sample.jpg/220px-Nickel%28II%29-chloride-hexahydrate-sample.jpg",
+        "Nickel(II) chloride hexahydrate"
+    ],
+    "97": [
+        "97",
+        "Nickel nitrate",
+        "Ni(NO3)2",
+        "182.701",
+        "0-35% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Nickel_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Nickel_nitrate.png/220px-Nickel_nitrate.png",
+        "Nickel(II) nitrate"
+    ],
+    "98": [
+        "98",
+        "Nickel sulfate",
+        "NiSO4",
+        "154.75",
+        "0-18% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Nickel_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Nickel_sulfate_anh.jpg/110px-Nickel_sulfate_anh.jpg",
+        "Nickel sulfate anh.jpg"
+    ],
+    "99": [
+        "99",
+        "Nicotine",
+        "C10H14N2",
+        "162.236",
+        "0-60% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Nicotine",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Nicotine.svg/220px-Nicotine.svg.png",
+        "Nicotine.svg"
+    ],
+    "100": [
+        "100",
+        "Nitric acid",
+        "HNO3",
+        "63.012",
+        "0-100% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Nitric_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Nitric-acid-resonance-A.png/220px-Nitric-acid-resonance-A.png",
+        "Resonance description of the bonding in the nitric acid molecule"
+    ],
+    "101": [
+        "101",
+        "Oxalic acid",
+        "H2C2O4",
+        "90.034",
+        "0-10% (17.5Â°C)",
+        "https://en.wikipedia.org/wiki/Oxalic_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Oxals%C3%A4ure2.svg/140px-Oxals%C3%A4ure2.svg.png",
+        "Structural formula of oxalic acid"
+    ],
+    "102": [
+        "102",
+        "Pentan-1-ol",
+        "C5H11OH",
+        "88.150",
+        "-",
+        "https://en.wikipedia.org/wiki/Pentan-1-ol",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pentan-1-ol-2D-skeletal.png/100px-Pentan-1-ol-2D-skeletal.png",
+        "Skeletal formula of 1-pentanol"
+    ],
+    "103": [
+        "103",
+        "Perchloric acid",
+        "HClO4",
+        "100.45",
+        "0-70% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Perchloric_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Perchloric-acid-2D-dimensions.png/110px-Perchloric-acid-2D-dimensions.png",
+        "Perchloric acid Hydroxidotrioxidochlorine"
+    ],
+    "104": [
+        "104",
+        "Phenol",
+        "C6H6O",
+        "94.113",
+        "0-5% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Phenol",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Phenol2.svg/80px-Phenol2.svg.png",
+        "Phenol2.svg"
+    ],
+    "105": [
+        "105",
+        "Phosphoric acid",
+        "H3PO4",
+        "97.994",
+        "0-100% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Phosphoric_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Phosphoric-acid-2D-dimensions.png/150px-Phosphoric-acid-2D-dimensions.png",
+        "Structural formula of phosphoric acid, showing dimensions"
+    ],
+    "106": [
+        "106",
+        "Potassium bicarbonate",
+        "KHCO3",
+        "100.114",
+        "0-24% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_bicarbonate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Potassium_bicarbonate.svg/220px-Potassium_bicarbonate.svg.png",
+        "Potassium bicarbonate"
+    ],
+    "107": [
+        "107",
+        "Potassium bromate",
+        "KBrO3",
+        "166.999",
+        "-",
+        "https://en.wikipedia.org/wiki/Potassium_bromate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Potassium_bromate.png/150px-Potassium_bromate.png",
+        "Potassium bromate.png"
+    ],
+    "108": [
+        "108",
+        "Potassium bromide",
+        "KBr",
+        "119.002",
+        "0-40% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_bromide",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Potassium_bromide.jpg/220px-Potassium_bromide.jpg",
+        "Potassium bromide"
+    ],
+    "109": [
+        "109",
+        "Potassium carbonate",
+        "K2CO3",
+        "138.204",
+        "0-50% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_carbonate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Potassium_Carbonate_2D_structure.png/220px-Potassium_Carbonate_2D_structure.png",
+        "Potassium Carbonate 2D structure.png"
+    ],
+    "110": [
+        "110",
+        "Potassium chlorate",
+        "KClO3",
+        "122.55",
+        "0-4% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_chlorate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Potassium-chlorate-composition.png/120px-Potassium-chlorate-composition.png",
+        "The structure of the ions in potassium chlorate"
+    ],
+    "111": [
+        "111",
+        "Potassium chloride",
+        "KCl",
+        "74.55",
+        "0-24% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Potassium_chloride.jpg/220px-Potassium_chloride.jpg",
+        "Potassium chloride.jpg"
+    ],
+    "112": [
+        "112",
+        "Potassium chromate",
+        "K2CrO4",
+        "194.188",
+        "0-30% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_chromate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Potassium-chromate-sample.jpg/220px-Potassium-chromate-sample.jpg",
+        "Potassium-chromate-sample.jpg"
+    ],
+    "113": [
+        "113",
+        "Potassium cyanide",
+        "KCN",
+        "65.116",
+        "-",
+        "https://en.wikipedia.org/wiki/Potassium_cyanide",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Potassium-cyanide-phase-I-unit-cell-3D-SF.png/220px-Potassium-cyanide-phase-I-unit-cell-3D-SF.png",
+        "Potassium-cyanide-phase-I-unit-cell-3D-SF.png"
+    ],
+    "114": [
+        "114",
+        "Potassium dichromate",
+        "K2Cr2O7",
+        "294.181",
+        "0-10% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_dichromate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Potassium-dichromate-sample.jpg/220px-Potassium-dichromate-sample.jpg",
+        "Potassium dichromate"
+    ],
+    "115": [
+        "115",
+        "Potassium dihydrogen phosphate",
+        "KH2PO4",
+        "136.084",
+        "0-10% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_dihydrogen_phosphate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Kaliumdihydrogenphosphat.jpg/270px-Kaliumdihydrogenphosphat.jpg",
+        "Kaliumdihydrogenphosphat.jpg"
+    ],
+    "116": [
+        "116",
+        "Potassium hexacyanoferrate(II)",
+        "K4Fe(CN)6",
+        "368.345",
+        "-",
+        "https://en.wikipedia.org/wiki/Potassium_hexacyanoferrate(II)",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Structure_of_potassium_ferrocyanide.png/220px-Structure_of_potassium_ferrocyanide.png",
+        "Structure of potassium ferrocyanide.png"
+    ],
+    "117": [
+        "117",
+        "Potassium hexacyanoferrate(III)",
+        "K3Fe(CN)6",
+        "329.247",
+        "-",
+        "https://en.wikipedia.org/wiki/Potassium_hexacyanoferrate(III)",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Structure_of_potassium_ferricyanide.png/220px-Structure_of_potassium_ferricyanide.png",
+        "Structure of potassium ferricyanide.png"
+    ],
+    "118": [
+        "118",
+        "Potassium hydrogen phosphate",
+        "K2HPO4",
+        "174.174",
+        "0-8% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_hydrogen_phosphate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Monopotassium_phosphate.png/100px-Monopotassium_phosphate.png",
+        ""
+    ],
+    "119": [
+        "119",
+        "Potassium hydroxide",
+        "KOH",
+        "56.105",
+        "0-50% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_hydroxide",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Potassium-hydroxide-xtal-3D-vdW.png/150px-Potassium-hydroxide-xtal-3D-vdW.png",
+        "Crystal structure of KOH"
+    ],
+    "120": [
+        "120",
+        "Potassium iodate",
+        "KIO3",
+        "214.0",
+        "-",
+        "https://en.wikipedia.org/wiki/Potassium_iodate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Potassium-iodate-unit-cell-3D-balls.png/220px-Potassium-iodate-unit-cell-3D-balls.png",
+        "Potassium-iodate-unit-cell-3D-balls.png"
+    ],
+    "121": [
+        "121",
+        "Potassium iodide",
+        "KI",
+        "166.0",
+        "0-55% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_iodide",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Potassium_iodide.jpg/220px-Potassium_iodide.jpg",
+        "Potassium iodide.jpg"
+    ],
+    "122": [
+        "122",
+        "Potassium nitrate",
+        "KNO3",
+        "101.102",
+        "0-24% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Potassium_nitrate.jpg/220px-Potassium_nitrate.jpg",
+        "Potassium nitrate"
+    ],
+    "123": [
+        "123",
+        "Potassium nitrite",
+        "KNO2",
+        "85.103",
+        "-",
+        "https://en.wikipedia.org/wiki/Potassium_nitrite",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Potassium_nitrite_ball-and-stick.png/220px-Potassium_nitrite_ball-and-stick.png",
+        "Potassium nitrite ball-and-stick.png"
+    ],
+    "124": [
+        "124",
+        "Potassium permanganate",
+        "KMnO4",
+        "158.032",
+        "0-6% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_permanganate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Potassium-permanganate-2004-unit-cell-3D-balls.png/220px-Potassium-permanganate-2004-unit-cell-3D-balls.png",
+        "Potassium-permanganate-2004-unit-cell-3D-balls.png"
+    ],
+    "125": [
+        "125",
+        "Potassium sulfate",
+        "K2SO4",
+        "174.25",
+        "0-10% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Arcanite.jpg/250px-Arcanite.jpg",
+        "Arcanite"
+    ],
+    "126": [
+        "126",
+        "Potassium sulfite",
+        "K2SO3",
+        "158.25",
+        "0-26% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_sulfite",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Potassium_sulfite.png/120px-Potassium_sulfite.png",
+        "Potassium sulfite.png"
+    ],
+    "127": [
+        "127",
+        "Potassium tartrate",
+        "K2C4H4O6",
+        "226.266",
+        "0-50% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Potassium_tartrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Potassium_tartrate.png/220px-Potassium_tartrate.png",
+        "Potassium tartrate.png"
+    ],
+    "128": [
+        "128",
+        "Potassium thiocyanate",
+        "KCNS",
+        "97.18",
+        "-",
+        "https://en.wikipedia.org/wiki/Potassium_thiocyanate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Potassium_thiocyanate.png/150px-Potassium_thiocyanate.png",
+        "Potassium thiocyanate.png"
+    ],
+    "129": [
+        "129",
+        "Propan-1-ol",
+        "CH3CH2CH2OH",
+        "60.096",
+        "0-100% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Propan-1-ol",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Propan-1-ol.svg/110px-Propan-1-ol.svg.png",
+        "Skeletal formula of 1-propanol"
+    ],
+    "130": [
+        "130",
+        "Propan-2-ol",
+        "CH3CHOHCH3",
+        "60.096",
+        "0-100% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Propan-2-ol",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/2-Propanol.svg/110px-2-Propanol.svg.png",
+        "Skeletal formula of isopropyl alcohol"
+    ],
+    "131": [
+        "131",
+        "Pyridine",
+        "C5H5N",
+        "79.102",
+        "0-60% (25Â°C)",
+        "https://en.wikipedia.org/wiki/Pyridine",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Pyridine-2D-full.svg/110px-Pyridine-2D-full.svg.png",
+        "Full structural formula of pyridine"
+    ],
+    "132": [
+        "132",
+        "Resorcinol",
+        "C6H6O2",
+        "110.112",
+        "0-52% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Resorcinol",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Resorcinol.svg/150px-Resorcinol.svg.png",
+        "Skeletal formula"
+    ],
+    "133": [
+        "133",
+        "Saccharose",
+        "C12H22O11",
+        "342.297",
+        "0-89% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Saccharose",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Saccharose2.svg/220px-Saccharose2.svg.png",
+        "Skeletal formula of sucrose"
+    ],
+    "134": [
+        "134",
+        "Silver nitrate",
+        "AgNO3",
+        "169.87",
+        "0-40% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Silver_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Silver-nitrate-2D.svg/160px-Silver-nitrate-2D.svg.png",
+        "Skeletal formula of silver nitrate"
+    ],
+    "135": [
+        "135",
+        "Silver sulfate",
+        "Ag2SO4",
+        "311.80",
+        "-",
+        "https://en.wikipedia.org/wiki/Silver_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Silver_sulfate.png/160px-Silver_sulfate.png",
+        "Skeletal formula of silver sulfate"
+    ],
+    "136": [
+        "136",
+        "Sodium acetate",
+        "NaC2H3O2",
+        "82.03",
+        "0-28% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_acetate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Sodium-acetate-2D-skeletal.png/120px-Sodium-acetate-2D-skeletal.png",
+        "Skeletal formula of sodium acetate"
+    ],
+    "137": [
+        "137",
+        "Sodium arsenate",
+        "Na3AsO4",
+        "207.89",
+        "0-12% (17Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_arsenate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Nuvola_apps_edu_science.svg/35px-Nuvola_apps_edu_science.svg.png",
+        "Stub icon"
+    ],
+    "138": [
+        "138",
+        "Sodium bromide",
+        "NaBr",
+        "102.89",
+        "0-40% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_bromide",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Sodium-bromide-3D-ionic.png/150px-Sodium-bromide-3D-ionic.png",
+        "3D model of sodium bromide"
+    ],
+    "139": [
+        "139",
+        "Sodium carbonate",
+        "Na2CO3",
+        "105.99",
+        "0-14% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_carbonate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sodium_carbonate.svg/80px-Sodium_carbonate.svg.png",
+        "Skeletal formula of sodium carbonate"
+    ],
+    "140": [
+        "140",
+        "Sodium chlorate",
+        "NaClO3",
+        "106.44",
+        "0-34% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_chlorate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Sodium-chlorate-component-ions-2D.png/150px-Sodium-chlorate-component-ions-2D.png",
+        "Skeletal formula of sodium chlorate"
+    ],
+    "141": [
+        "141",
+        "Sodium chloride",
+        "NaCl",
+        "58.44",
+        "0-26% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Halit-Kristalle.jpg/220px-Halit-Kristalle.jpg",
+        "Halit-Kristalle.jpg"
+    ],
+    "142": [
+        "142",
+        "Sodium chromate",
+        "Na2CrO4",
+        "161.97",
+        "0-26% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_chromate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Sodium-chromate.svg/220px-Sodium-chromate.svg.png",
+        "Sodium-chromate.svg"
+    ],
+    "143": [
+        "143",
+        "Sodium citrate",
+        "Na3C6H5O7",
+        "258.07",
+        "0-36% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_citrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/DAB_list_gray.svg/30px-DAB_list_gray.svg.png",
+        "Disambiguation icon"
+    ],
+    "144": [
+        "144",
+        "Sodium dichromate",
+        "Na2Cr2O7",
+        "261.97",
+        "0-50% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_dichromate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Na2Cr2O7.png/220px-Na2Cr2O7.png",
+        "Na2Cr2O7.png"
+    ],
+    "145": [
+        "145",
+        "Sodium dihydrogen phosphate",
+        "NaH2PO4",
+        "119.98",
+        "0-40% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_dihydrogen_phosphate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Monosodium_phosphate.png/150px-Monosodium_phosphate.png",
+        "Monosodium phosphate.png"
+    ],
+    "146": [
+        "146",
+        "Sodium formate",
+        "HCOONa",
+        "68.01",
+        "0-40% (25Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_formate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sodium-formate-2D.png/125px-Sodium-formate-2D.png",
+        "Structural formula of sodium formate"
+    ],
+    "147": [
+        "147",
+        "Sodium hydrogen carbonate",
+        "NaHCO3",
+        "84.01",
+        "0-6% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_hydrogen_carbonate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/SodiumBicarbonate.png/121px-SodiumBicarbonate.png",
+        "SodiumBicarbonate.png"
+    ],
+    "148": [
+        "148",
+        "Sodium hydrogen phosphate",
+        "Na2HPO4",
+        "141.96",
+        "0-6% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_hydrogen_phosphate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Disodium_hydrogen_phosphate.png/150px-Disodium_hydrogen_phosphate.png",
+        "Structural formula of disodium phosphate"
+    ],
+    "150": [
+        "150",
+        "Sodium hydroxide",
+        "NaOH",
+        "40.00",
+        "0-50% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_hydroxide",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Sodium-hydroxide-crystal-3D-vdW.png/220px-Sodium-hydroxide-crystal-3D-vdW.png",
+        "Unit cell, spacefill model of sodium hydroxide"
+    ],
+    "151": [
+        "151",
+        "Sodium nitrate",
+        "NaNO3",
+        "84.99",
+        "0-45% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Dusi%C4%8Dnan_sodn%C3%BD.JPG/220px-Dusi%C4%8Dnan_sodn%C3%BD.JPG",
+        "Dusičnan sodný.JPG"
+    ],
+    "152": [
+        "152",
+        "Sodium nitrite",
+        "NaNO2",
+        "69.00",
+        "0-20% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_nitrite",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Sodium_nitrite_crystals.jpg/220px-Sodium_nitrite_crystals.jpg",
+        "Sodium nitrite"
+    ],
+    "153": [
+        "153",
+        "Sodium phosphate",
+        "Na3PO4",
+        "163.94",
+        "0-8% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_phosphate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Monosodium_phosphate.png/100px-Monosodium_phosphate.png",
+        ""
+    ],
+    "154": [
+        "154",
+        "Sodium potassium tartrate",
+        "NaKC4H4O6",
+        "210.16",
+        "0-36% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_potassium_tartrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/K-Na-L-%28%2B%29-tartrate.png/220px-K-Na-L-%28%2B%29-tartrate.png",
+        "Skeletal formula of potassium sodium tartrate"
+    ],
+    "155": [
+        "155",
+        "Sodium sulfate",
+        "Na2SO4",
+        "142.04",
+        "0-24% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Sodium_sulfate.svg/150px-Sodium_sulfate.svg.png",
+        "Sodium sulfate.svg"
+    ],
+    "156": [
+        "156",
+        "Sodium sulfide",
+        "Na2S",
+        "78.04",
+        "0-18% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_sulfide",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Natriumsulfid.jpg/220px-Natriumsulfid.jpg",
+        "Natriumsulfid.jpg"
+    ],
+    "157": [
+        "157",
+        "Sodium sulfite",
+        "Na2SO3",
+        "126.04",
+        "0-18% (19Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_sulfite",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Sodium_sulfite.png/220px-Sodium_sulfite.png",
+        "Sodium sulfite"
+    ],
+    "158": [
+        "158",
+        "Sodium tartrate",
+        "Na2C4H4O6",
+        "194.05",
+        "0-28% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_tartrate",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png",
+        ""
+    ],
+    "159": [
+        "159",
+        "Sodium thiosulfate",
+        "Na2S2O3",
+        "158.10",
+        "0-40% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sodium_thiosulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Sodium_thiosulfate.svg/150px-Sodium_thiosulfate.svg.png",
+        "Sodium thiosulfate"
+    ],
+    "160": [
+        "160",
+        "Strontium chloride",
+        "SrCl2",
+        "158.52",
+        "0-36% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Strontium_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Strontium_chloride_hexahydrate.jpg/220px-Strontium_chloride_hexahydrate.jpg",
+        "Strontium chloride hexahydrate"
+    ],
+    "161": [
+        "161",
+        "Strontium nitrate",
+        "Sr(NO3)2",
+        "211.63",
+        "-",
+        "https://en.wikipedia.org/wiki/Strontium_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Strontium_nitrate.png/150px-Strontium_nitrate.png",
+        "Strontium nitrate.png"
+    ],
+    "162": [
+        "162",
+        "Strontium sulfate",
+        "SrSO4",
+        "183.68",
+        "-",
+        "https://en.wikipedia.org/wiki/Strontium_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Strontium-sulfate-from-xtal-3D-SF.png/120px-Strontium-sulfate-from-xtal-3D-SF.png",
+        "Strontium-sulfate-from-xtal-3D-SF.png"
+    ],
+    "163": [
+        "163",
+        "Sulfuric acid",
+        "H2SO4",
+        "98.07",
+        "0-100% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Sulfuric_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Sulfuric-acid-Givan-et-al-1999-3D-vdW.png/110px-Sulfuric-acid-Givan-et-al-1999-3D-vdW.png",
+        "Sulfuric-acid-Givan-et-al-1999-3D-vdW.png"
+    ],
+    "164": [
+        "164",
+        "Sulfurous acid",
+        "H2SO3",
+        "82.07",
+        "-",
+        "https://en.wikipedia.org/wiki/Sulfurous_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Sulfurous-acid-2D-pyramidal.png/150px-Sulfurous-acid-2D-pyramidal.png",
+        "Sulfurous acid"
+    ],
+    "165": [
+        "165",
+        "Tartaric acid",
+        "H2C4H4O6",
+        "150.086",
+        "0-56% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Tartaric_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Tartaric_acid.svg/220px-Tartaric_acid.svg.png",
+        "Tartaric acid.svg"
+    ],
+    "166": [
+        "166",
+        "Thiourea",
+        "CH4N2S",
+        "76.12",
+        "0-7% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Thiourea",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Thiourea.png/110px-Thiourea.png",
+        "Thiourea.png"
+    ],
+    "167": [
+        "167",
+        "Tin(II) chloride",
+        "SnCl2",
+        "189.61",
+        "0-65% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Tin(II)_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Tin%28II%29_chloride.jpg/220px-Tin%28II%29_chloride.jpg",
+        "Tin(II) chloride"
+    ],
+    "168": [
+        "168",
+        "Tin(IV) chloride",
+        "SnCl4",
+        "260.51",
+        "0-70% (15Â°C)",
+        "https://en.wikipedia.org/wiki/Tin(IV)_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Tin%28IV%29_chloride.jpg/110px-Tin%28IV%29_chloride.jpg",
+        "Tin (IV) chloride"
+    ],
+    "169": [
+        "169",
+        "Trichloroacetic acid",
+        "CCl3COOH",
+        "163.38",
+        "0-48% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Trichloroacetic_acid",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Trichloroacetic_acid_structure.svg/120px-Trichloroacetic_acid_structure.svg.png",
+        "Trichloroacetic acid structure.svg"
+    ],
+    "170": [
+        "170",
+        "TRIS",
+        "(HOCH2)3CNH2",
+        "121.136",
+        "0-40% (20Â°C)",
+        "https://en.wikipedia.org/wiki/TRIS",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
+        "Disambiguation icon"
+    ],
+    "171": [
+        "171",
+        "Urea",
+        "(NH2)2CO",
+        "60.056",
+        "0-46% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Urea",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Urea_2D_%26_Urea_3D.png/280px-Urea_2D_%26_Urea_3D.png",
+        "Structural formula of urea"
+    ],
+    "172": [
+        "172",
+        "Urethane",
+        "C3H7NO2",
+        "89.094",
+        "0-56% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Urethane",
+        "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png",
+        "Disambiguation icon"
+    ],
+    "173": [
+        "173",
+        "Zinc bromide",
+        "ZnBr2",
+        "225.19",
+        "0-65% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Zinc_bromide",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Bromid_zine%C4%8Dnat%C3%BD.PNG/220px-Bromid_zine%C4%8Dnat%C3%BD.PNG",
+        "Zinc bromide"
+    ],
+    "174": [
+        "174",
+        "Zinc chloride",
+        "ZnCl2",
+        "136.28",
+        "0-70% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Zinc_chloride",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Zinc_chloride.jpg/220px-Zinc_chloride.jpg",
+        "Zinc chloride hydrate"
+    ],
+    "175": [
+        "175",
+        "Zinc nitrate",
+        "Zn(NO3)2",
+        "189.39",
+        "0-50% (18Â°C)",
+        "https://en.wikipedia.org/wiki/Zinc_nitrate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Zinc_nitrate.png/220px-Zinc_nitrate.png",
+        "Zinc nitrate"
+    ],
+    "176": [
+        "176",
+        "Zinc sulfate",
+        "ZnSO4",
+        "161.44",
+        "0-16% (20Â°C)",
+        "https://en.wikipedia.org/wiki/Zinc_sulfate",
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Zinc_Sulfate.jpg/220px-Zinc_Sulfate.jpg",
+        "Zinc Sulfate.jpg"
+    ]
+}

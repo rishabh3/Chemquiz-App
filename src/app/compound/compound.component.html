@@ -1,4 +1,16 @@
 <app-navbar></app-navbar>
-<p>
-  Generate Card for all the compounds in the json file and show top 10 with load more button
-</p>
+<div class="container box">
+  <div class="container-fluid" *ngFor="let item of this.group; let i = index">
+  <div class="card-group">
+    <div class="card" *ngFor="let item of this.group[i]; let j = index" >      
+        <a [href]="this.group[i][j][5]" title="Click for more information">
+         <img class="card-img-top" [src]="this.group[i][j][6]" [alt]="this.group[i][j][7]">
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">{{this.group[i][j][1]}}</h5>
+          <p class="card-text">{{this.group[i][j][2]}}</p>
+        </div>
+    </div>
+  </div><br/><br/>
+  </div>
+</div>

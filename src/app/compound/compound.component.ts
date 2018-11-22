@@ -14,7 +14,7 @@ export class CompoundComponent implements OnInit {
   JWT = '';
   constructor(private httpService: HttpClient, private cookieService: CookieService, private Auth: AuthService, private router: Router) { }
   compoundData;
-
+  group = [];
   ngOnInit() {
     if (!this.Auth.getDetails().name) {
       if (!this.cookieService.get('Auth')) {
@@ -34,9 +34,21 @@ export class CompoundComponent implements OnInit {
         );
       }
     }
-    this.httpService.get('../../assets/group-wise.json').subscribe(
-      data => {
+    this.httpService.get('../../assets/compound.json').subscribe(
+      (data: any) => {
         this.compoundData = data;
+        let temparr = [];
+        let i = 1;
+        const up = 176;
+        while (i < up) {
+          while (temparr.length !== 6) {
+            temparr.push(this.compoundData[i]);
+            i += 1;
+          }
+          this.group.push(temparr);
+          temparr = [];
+        }
+        console.log(this.group);
         // console.log(this.periodicData[0][0].name);
       },
       (error: HttpErrorResponse) => {

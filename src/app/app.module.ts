@@ -75,8 +75,7 @@ import { CookieService } from 'ngx-cookie-service';
         },
         {
           path: 'compound',
-          component: CompoundComponent,
-          canActivate: [AuthGuard]
+          component: CompoundComponent
         },
         {
           path: 'profile',
