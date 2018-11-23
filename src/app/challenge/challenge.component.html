@@ -55,7 +55,7 @@
             <h4>You have been challenged by {{this.handler.getChallenger()}}</h4> 
         </div>
         <br>
-        <button class="btn btn-secondary" (click)="startChallengeQuiz()">Start Challenge</button>
+        <button class="btn btn-secondary" (click)="startChallengeQuiz()" [disabled]="this.clicked == true">Start Challenge</button>
     </div>
 
 
