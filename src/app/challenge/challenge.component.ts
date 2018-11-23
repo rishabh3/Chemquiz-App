@@ -5,6 +5,7 @@ import { AuthService } from '../auth.service';
 import { CookieService } from 'ngx-cookie-service';
 import { Router } from '@angular/router';
 import { NotificationhandlerService } from '../notificationhandler.service';
+import { DeletequestionsService } from '../deletequestions.service';
 
 @Component({
   selector: 'app-challenge',
@@ -29,9 +30,10 @@ export class ChallengeComponent implements OnInit {
   private question: string;
   private options: any;
   private scope: any;
+  clicked: boolean;
 
   // tslint:disable-next-line:max-line-length
-  constructor(private challenge: ChallengeService, private router: Router, private Auth: AuthService, private cookieService: CookieService, private handler: NotificationhandlerService) {
+  constructor(private challenge: ChallengeService, private router: Router, private Auth: AuthService, private cookieService: CookieService, private handler: NotificationhandlerService, private deleteService: DeletequestionsService) {
   }
 
   ngOnInit() {
@@ -81,6 +83,7 @@ export class ChallengeComponent implements OnInit {
   startChallengeQuiz() {
     const scope = this;
     this.getQuestionSetForChallengee(this.initialize, scope);
+    this.clicked = true;
   }
 
   onSelectionChange(option) {
@@ -97,6 +100,7 @@ export class ChallengeComponent implements OnInit {
     this.challenge.challengeRegister(this.email).subscribe(
       (data: any) => {
         console.log(data);
+        this.findChallenge();
       },
       (err: HttpErrorResponse) => {
         console.log(err.error);
@@ -110,6 +114,7 @@ export class ChallengeComponent implements OnInit {
     this.score = 0;
     this.questionNumber = 0;
     this.handler.setChallengeAccepted(false);
+    this.findChallenge();
   }
 
   checkAnswer() {
@@ -130,6 +135,7 @@ export class ChallengeComponent implements OnInit {
         this.answerMode = false;
       }
     }
+    this.clicked = false;
   }
 
   nextQuestion() {
@@ -179,14 +185,28 @@ export class ChallengeComponent implements OnInit {
   }
 
   getQuestionSetForChallengee(callback, scope) {
+    console.log('Get All Questions');
     this.challenge.getQuestionForChallengee(this.handler.getChallenger()).subscribe(
       (data: any) => {
         this.questionData = data.questions;
         console.log(this.questionData);
-        callback(scope);
+        this.deleteService.sendDeleteRequest(this.Auth.getDetails().token).subscribe(
+          // tslint:disable-next-line:no-shadowed-variable
+          (data: any) => {
+            console.log(data);
+            callback(scope);
+          },
+          (err: HttpErrorResponse) => {
+            console.log(err.error);
+          }
+        );
       },
-      (err: any) => {
+      (err: HttpErrorResponse) => {
         console.log(err.error);
+        if (err.status === 503 ) {
+          console.log(err.error);
+          this.getQuestionSetForChallengee(callback, scope);
+        }
       }
     );
   }

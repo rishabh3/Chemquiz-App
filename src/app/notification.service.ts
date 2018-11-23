@@ -3,6 +3,7 @@ import { NotificationComponent } from './notification/notification.component';
 import { Router } from '@angular/router';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { AuthService } from './auth.service';
+import { DeletequestionsService } from './deletequestions.service';
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +11,8 @@ import { AuthService } from './auth.service';
 export class NotificationService {
   private rootViewContainer: any;
   private component: any;
-  constructor(private factoryResolver: ComponentFactoryResolver, private router: Router,private http:HttpClient,private Auth:AuthService) {
+  // tslint:disable-next-line:max-line-length
+  constructor(private factoryResolver: ComponentFactoryResolver, private router: Router, private http: HttpClient, private Auth: AuthService, private deleteService: DeletequestionsService) {
    }
 
   public setRootViewContainerRef(viewContainerRef) {
@@ -26,6 +28,7 @@ export class NotificationService {
      this.component.instance.setRouter(this.router);
      this.component.instance.setHTTP(this.http);
      this.component.instance.setAuth(this.Auth);
+     this.component.instance.setDeleteService(this.deleteService);
      console.log(this.component);
      this.rootViewContainer.insert(this.component.hostView);
      this.component.changeDetectorRef.detectChanges();

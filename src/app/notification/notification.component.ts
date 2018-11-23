@@ -4,6 +4,7 @@ import { NotificationhandlerService } from '../notificationhandler.service';
 import { ChallengeComponent } from '../challenge/challenge.component';
 import { HttpClient, HttpHeaders, HttpErrorResponse } from '@angular/common/http';
 import { AuthService } from '../auth.service';
+import { DeletequestionsService } from '../deletequestions.service';
 @Component({
   selector: 'app-notification',
   templateUrl: './notification.component.html',
@@ -16,7 +17,8 @@ export class NotificationComponent implements OnInit {
   private email: string;
   private _ref: any;
 
-  constructor(private handler: NotificationhandlerService, private router: Router,private http:HttpClient, private Auth:AuthService) { }
+  // tslint:disable-next-line:max-line-length
+  constructor(private handler: NotificationhandlerService, private router: Router, private http: HttpClient, private Auth: AuthService, private deleteService: DeletequestionsService) { }
 
   ngOnInit() {
   }
@@ -30,13 +32,10 @@ export class NotificationComponent implements OnInit {
   }
 
   remove() {
-    let headers = new HttpHeaders();
+    this.handler.setChallengeAccepted(true);
     console.log('submitted');
-    headers = headers.set('Content-Type', 'application/json; charset=utf-8').set('Authorization',this.Auth.getDetails().token);
-    // const url = 'https://chemquiz.herokuapp.com/login';
-    const url = 'https://chemquiz.herokuapp.com/challenge/deleteChallenge';
-    const body = JSON.stringify({chal: this.email});
-    this.http.post(url, body, {headers: headers}).subscribe(
+    this.deleteService.setEmail(this.email);
+    this.deleteService.sendDeleteRequest(this.Auth.getDetails().token).subscribe(
       (data: any) => {
         console.log(data);
       },
@@ -45,7 +44,6 @@ export class NotificationComponent implements OnInit {
             console.log('Client-side error occured.');
         } else {
             console.log(err);
-
         }
       }
     );
@@ -56,11 +54,15 @@ export class NotificationComponent implements OnInit {
     this.router = router;
   }
 
-  setHTTP(http: HttpClient){
+  setDeleteService(deleteService) {
+    this.deleteService = deleteService;
+  }
+
+  setHTTP(http: HttpClient) {
     this.http = http;
   }
-  
-  setAuth(Auth: AuthService){
+
+  setAuth(Auth: AuthService) {
     this.Auth = Auth;
   }
 
@@ -68,10 +70,11 @@ export class NotificationComponent implements OnInit {
     console.log('accept the challenge');
     console.log(this);
     this.handler.setChallengeAccepted(true);
+    this.deleteService.setEmail(this.email);
     // Route to challenge
     console.log(this.email);
     this.handler.setChallenger(this.email);
-    this.remove();
+    this._ref.destroy();
     this.router.navigate(['/challenge']);
     console.log(this.handler.getChallengeAccepted());
   }
