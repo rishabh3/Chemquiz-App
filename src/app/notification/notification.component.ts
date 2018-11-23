@@ -45,6 +45,7 @@ export class NotificationComponent implements OnInit {
     // Route to challenge
     console.log(this.email);
     this.handler.setChallenger(this.email);
+    this.remove();
     this.router.navigate(['/challenge']);
     console.log(this.handler.getChallengeAccepted());
   }

@@ -66,7 +66,7 @@ export class ChallengeComponent implements OnInit {
       scope.inProgress = true;
       scope.score = 0;
       scope.quizOver = false;
-      scope.questionNumber = 10;
+      scope.questionNumber = 0;
       scope.answerMode = true;
       scope.chosenOption = null;
       scope.nextQuestion();
@@ -102,6 +102,14 @@ export class ChallengeComponent implements OnInit {
         console.log(err.error);
       }
     );
+  }
+
+  resetChallengeQuiz() {
+    this.inProgress = false;
+    this.challenge.sendStats(this.score);
+    this.score = 0;
+    this.questionNumber = 0;
+    this.handler.setChallengeAccepted(false);
   }
 
   checkAnswer() {
