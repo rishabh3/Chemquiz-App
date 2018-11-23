@@ -1,6 +1,8 @@
 import { Injectable, Inject, ComponentFactoryResolver, EmbeddedViewRef } from '@angular/core';
 import { NotificationComponent } from './notification/notification.component';
 import { Router } from '@angular/router';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { AuthService } from './auth.service';
 
 @Injectable({
   providedIn: 'root'
@@ -8,7 +10,7 @@ import { Router } from '@angular/router';
 export class NotificationService {
   private rootViewContainer: any;
   private component: any;
-  constructor(private factoryResolver: ComponentFactoryResolver, private router: Router) {
+  constructor(private factoryResolver: ComponentFactoryResolver, private router: Router,private http:HttpClient,private Auth:AuthService) {
    }
 
   public setRootViewContainerRef(viewContainerRef) {
@@ -22,6 +24,8 @@ export class NotificationService {
      this.component.instance.setEmail(email);
      this.component.instance.setComp(this.component);
      this.component.instance.setRouter(this.router);
+     this.component.instance.setHTTP(this.http);
+     this.component.instance.setAuth(this.Auth);
      console.log(this.component);
      this.rootViewContainer.insert(this.component.hostView);
      this.component.changeDetectorRef.detectChanges();
