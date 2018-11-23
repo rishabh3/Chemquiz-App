@@ -18,13 +18,13 @@ export class ChallengeService {
 
   challengeFind() {
     let headers = new HttpHeaders();
-    headers = headers.set('email', this.Auth.getDetails().email);
+    headers = headers.set('Authorization', this.Auth.getDetails().token);
     return this.http.get(this.challengeurl, {headers: headers});
   }
 
   challengeRegister(email: string) {
     let headers = new HttpHeaders();
-    headers = headers.set('Content-Type', 'application/json').set('email', this.Auth.getDetails().email);
+    headers = headers.set('Content-Type', 'application/json').set('Authorization', this.Auth.getDetails().token);
     const body = JSON.stringify(
       {
         chal: email
@@ -37,7 +37,7 @@ export class ChallengeService {
     let headers = new HttpHeaders();
     console.log(this.Auth.getDetails().email);
     console.log(email);
-    headers = headers.set('Content-Type', 'application/json').set('email', this.Auth.getDetails().email);
+    headers = headers.set('Content-Type', 'application/json').set('Authorization', this.Auth.getDetails().token);
     const body = JSON.stringify(
       {
         challengee: email
@@ -48,7 +48,7 @@ export class ChallengeService {
 
   getQuestionForChallengee() {
     let headers = new HttpHeaders();
-    headers =  headers.set('Content-Type', 'application/json').set('email', this.Auth.getDetails().email);
+    headers =  headers.set('Content-Type', 'application/json').set('Authorization', this.Auth.getDetails().token);
     const body = JSON.stringify(
       {
         challenger: 'pratik.r.sampat@gmail.com'

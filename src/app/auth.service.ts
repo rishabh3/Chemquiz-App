@@ -27,7 +27,8 @@ export class AuthService {
   getDetails() {
     return {
       email : this.email,
-      name: this.name
+      name: this.name,
+      token: this.token
     };
   }
 

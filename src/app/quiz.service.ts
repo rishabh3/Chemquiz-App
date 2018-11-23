@@ -16,7 +16,7 @@ export class QuizService {
   getNextQuestion(level: number) {
     let headers = new HttpHeaders();
 
-    headers = headers.set('Content-Type', 'application/json; charset=utf-8').set('email', this.auth.getDetails().email);
+    headers = headers.set('Content-Type', 'application/json; charset=utf-8').set('Authorization', this.auth.getDetails().token);
 
     const body = JSON.stringify(
       {
